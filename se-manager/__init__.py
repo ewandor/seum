@@ -51,6 +51,8 @@ class SeManager:
     def purge_logs(self, server):
         pass
 
+    def backup_server(self, server):
+
     def ban_player(self, server, player_name):
         pass
 
