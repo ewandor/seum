@@ -1,3 +1,7 @@
+from configparser import ConfigParser
+import os
+import subprocess
+
 __author__ = 'ggentile'
 
 import re
@@ -21,3 +25,49 @@ for line in log_file:
     if result:
         logLine = LogLine(result.group('date_time'), result.group('body'))
         print(logLine)
+
+subprocess.call('pwd')
+
+class SeManager:
+
+    def __init__(self, config_path):
+        self.installs = {}
+        self.servers = {}
+        self.config = ConfigParser()
+        self.config.read(config_path)
+
+    def start(self, server):
+        pass
+
+    def stop(self, server):
+        pass
+
+    def restart(self, server):
+        pass
+
+    def list_users(self, server):
+        pass
+
+    def purge_logs(self, server):
+        pass
+
+    def ban_player(self, server, player_name):
+        pass
+
+    def op_player(self, server, player_name):
+        pass
+
+    def create_server(self, install, server_name):
+        pass
+
+    def remove_server(self, install, server_name):
+        pass
+
+    def update_install(self, install):
+        pass
+
+    def create_install(self, install_name, path):
+        pass
+
+    def remove_install(self, install):
+        pass
