@@ -45,6 +45,9 @@ class SeManager:
     def restart(self, server):
         pass
 
+    def uptime(self, server):
+        pass
+
     def list_users(self, server):
         pass
 
