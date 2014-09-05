@@ -12,13 +12,37 @@ class User:
         self.date_connection = date_connection
 
 class LogsManager:
+    REGEX_LOGFILE_NAME_FORMAT = r"SpaceEngineersDedicated_(?P<date>\d{8})_(?P<time>)\d{6}.log"
     REGEX_USER_CONNECTED = r'World request received: (?P<login>.+)'
     REGEX_USER_ID = r'Server ValidateAuthTicketResponse (k_EAuthSessionResponseOK), owner: (?P<user_id>\d+)'
     REGEX_USER_DISCONNECTED = r'User left (?P<login>.+)'
 
+    def __init__(self, server):
+        self.server = server
+        self.log_dir = server.log_dir
+        self.current_log_file = self.find_current_log_file()
+
+    def find_current_log_file(self):
+        current_log_file = {'filename': '', 'date': '0', 'time': '0'}
+        if self.server.state == 'running':
+            for entry in os.listdir(self.log_dir):
+                result = re.search(self.REGEX_LOGFILE_NAME_FORMAT, entry)
+                if result and result.group('date') > current_log_file['date'] \
+                        or result.group('date') == current_log_file['date'] \
+                        and result.group('time') > current_log_file['time']:
+                    current_log_file = {
+                        'filename': entry,
+                        'date': result.group('date'),
+                        'time': result.group('time')
+                    }
+            return current_log_file
+        else:
+            return None
+
     def purge_logs(self):
-        for files in logs_dir:
-            os.remove(files)
+        for file in os.listdir(self.log_dir):
+            if file != self.current_log_file['filename']:
+                os.remove(file)
 
     def list_users(self):
         connected_users = []
