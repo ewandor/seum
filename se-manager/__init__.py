@@ -51,12 +51,19 @@ class SeManager:
     def purge_logs(self, server):
         pass
 
-    def backup_server(self, server):
+    def backup_server(self, server, path):
+        pass
+
+    def restore_server(self, server, path):
+        pass
 
     def ban_player(self, server, player_name):
         pass
 
     def op_player(self, server, player_name):
+        pass
+
+    def add_mod(self, server, mod_id):
         pass
 
     def create_server(self, install, server_name):
