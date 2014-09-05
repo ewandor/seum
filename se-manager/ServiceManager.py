@@ -18,6 +18,8 @@ class ServerStateManager:
 
 
 class WindowsServerStateManager(ServerStateManager):
+    SERVICES_REGEX = r'STATE\s*: (?P<status>\d)'
+    SERVICES_STATUS = {4: 'running'}
 
     def server_start(self):
         subprocess.call(['net', 'start', self.instanceName])
@@ -26,7 +28,9 @@ class WindowsServerStateManager(ServerStateManager):
         subprocess.call(['net', 'stop', self.instanceName])
 
     def server_state(self):
-        pass
+        output = subprocess.check_output(['sc', 'query', self.instanceName]).decode('utf-8')
+        result = re.search(self.SERVICES_REGEX, output)
+        return result.group('status') == '4'
 
     def backup_server(self, path):
         self.server.stop
