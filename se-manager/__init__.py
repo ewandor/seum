@@ -5,6 +5,7 @@ __author__ = 'ggentile'
 
 test_file = '/home/ggentile/PycharmProjects/se-manager/SpaceEngineersDedicated_20140902_185151.log'
 
+
 class SeManager:
 
     def __init__(self, config_path):

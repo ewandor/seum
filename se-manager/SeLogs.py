@@ -1,6 +1,8 @@
 import os
 import re
 
+from datetime import datetime
+
 __author__ = 'ggentile'
 
 class User:
@@ -36,7 +38,10 @@ class LogFileReader:
         for line in self.file:
             result = re.search(self.REGEX_LOG_LINE, line)
             if result:
-                self.lines.append(LogLine(result.group('date_time'), result.group('body')))
+                self.lines.append(LogLine(
+                    datetime.strptime(result.group('date_time'), '%Y-%m-%d %H:%M:%S.%f'),
+                    result.group('body')
+                ))
 
     def list_users(self):
         connected_users = []
@@ -82,14 +87,13 @@ class LogFilesManager:
         if self.server.state == 'running':
             for entry in os.listdir(self.log_dir):
                 result = re.search(self.REGEX_LOGFILE_NAME_FORMAT, entry)
-                if result and result.group('date') > current_log_file['date'] \
-                        or result.group('date') == current_log_file['date'] \
-                        and result.group('time') > current_log_file['time']:
-                    current_log_file = {
-                        'filename': entry,
-                        'date': result.group('date'),
-                        'time': result.group('time')
-                    }
+                if result:
+                    file_date = datetime.strptime(result.group('date') + result.group('time'), '%Y%m%d%H%M%S')
+                    if file_date > current_log_file['datetime']:
+                        current_log_file = {
+                            'filename': entry,
+                            'datetime': file_date,
+                        }
             return current_log_file
         else:
             return None
