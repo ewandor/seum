@@ -5,10 +5,14 @@ from datetime import datetime
 
 __author__ = 'ggentile'
 
+
 class User:
     def __init__(self, login, date_connection):
         self.login = login
         self.date_connection = date_connection
+
+    def __str__(self):
+        return self.login
 
 
 class LogLine:
@@ -23,8 +27,8 @@ class LogLine:
 
 class LogFileReader:
     REGEX_LOG_LINE = r'(?P<date_time>\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}.\d{3}) - Thread:   \d+ -> +(?P<body>\w.*)'
-    REGEX_USER_CONNECTED = r'World request received: (?P<login>.+)'
-    REGEX_USER_ID = r'Server ValidateAuthTicketResponse (k_EAuthSessionResponseOK), owner: (?P<user_id>\d+)'
+    REGEX_USER_CONNECTED = r'OnConnectedPlayer (?P<login>\S+) attempt'
+    REGEX_USER_ID = r'Server ValidateAuthTicketResponse \(k_EAuthSessionResponseOK\), owner: (?P<user_id>\d+)'
     REGEX_USER_DISCONNECTED = r'User left (?P<login>.+)'
     REGEX_SERVER_INITIALIZED = r'Game ready... Press Ctrl\+C to exit'
 
@@ -50,13 +54,14 @@ class LogFileReader:
             if next_one_is_user_id:
                 result = re.search(self.REGEX_USER_ID, logLine.body)
                 connected_users[-1].user_id = result.group('user_id')
+                next_one_is_user_id = False
             else:
                 result = re.search(self.REGEX_USER_CONNECTED, logLine.body)
                 if result:
                     connected_users.append(User(result.group('login'), logLine.date))
                     next_one_is_user_id = True
                 else:
-                    result = re.search(self.REGEX_USER_DISCONECTED, logLine.body)
+                    result = re.search(self.REGEX_USER_DISCONNECTED, logLine.body)
                     if result:
                         self.remove_user_from_list(connected_users, result.group('login'))
         return connected_users

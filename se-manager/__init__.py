@@ -1,10 +1,14 @@
-from configparser import ConfigParser
-
 __author__ = 'ggentile'
 
+from configparser import ConfigParser
+
+from SeLogs import LogFileReader
 
 test_file = '/home/ggentile/PycharmProjects/se-manager/SpaceEngineersDedicated_20140902_185151.log'
 
+log_reader = LogFileReader(test_file)
+print(log_reader.list_users())
+print(log_reader.get_start_time())
 
 class SeManager:
 
