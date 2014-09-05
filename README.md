@@ -1,7 +1,9 @@
+**NO ALPHA RELEASED PLANED YET**
+
 se-manager
 ==========
 
-Se-manager is a tool aimed to the administration of a multiple Space Engineer Dedicated Server running under multiple versions under Windows.
+Se-manager is a command line tool aimed to the administration of a multiple Space Engineer Dedicated Server running under multiple versions under Windows.
 
 Requirements:
 Python 3.4
