@@ -2,7 +2,7 @@ __author__ = 'ggentile'
 
 from configparser import ConfigParser
 
-from SeLogs import LogFileReader
+from seManager.SeLogs import LogFileReader
 
 test_file = '/home/ggentile/PycharmProjects/se-manager/SpaceEngineersDedicated_20140902_185151.log'
 
