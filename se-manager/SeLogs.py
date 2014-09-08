@@ -7,12 +7,33 @@ __author__ = 'ggentile'
 
 
 class User:
-    def __init__(self, login, date_connection):
-        self.login = login
-        self.date_connection = date_connection
+    def __init__(self, user_id):
+        self.user_id = user_id
+        self.login = ''
 
     def __str__(self):
-        return self.login
+        return '%s (%s)' % (self.user_id, self.login)
+
+    def __repr__(self):
+        return '<SeLogs.User: %s (%s)>' % (self.user_id, self.login)
+
+
+class UserFactory:
+
+    users = {}
+
+    @classmethod
+    def get_user_by_login(cls, login):
+        for user in cls.users.values():
+            if login == user.login:
+                return user
+
+
+    @classmethod
+    def get_user_by_id(cls, user_id):
+        if not user_id in cls.users:
+            cls.users[user_id] = User(user_id)
+        return cls.users[user_id]
 
 
 class LogLine:
@@ -27,56 +48,65 @@ class LogLine:
 
 class LogFileReader:
     REGEX_LOG_LINE = r'(?P<date_time>\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}.\d{3}) - Thread:   \d+ -> +(?P<body>\w.*)'
-    REGEX_USER_CONNECTED = r'OnConnectedPlayer (?P<login>\S+) attempt'
-    REGEX_USER_ID = r'Server ValidateAuthTicketResponse \(k_EAuthSessionResponseOK\), owner: (?P<user_id>\d+)'
+    REGEX_USER_LOGIN = r'World request received: (?P<login>\S+)'
+    REGEX_USER_CONNECTED = r'Server ValidateAuthTicketResponse \(k_EAuthSessionResponseOK\), owner: (?P<user_id>\d+)'
     REGEX_USER_DISCONNECTED = r'User left (?P<login>.+)'
     REGEX_SERVER_INITIALIZED = r'Game ready... Press Ctrl\+C to exit'
 
     def __init__(self, path):
         self.path = path
         self.file = open(self.path, 'r')
-        self.lines = []
+        self.__init_server_states()
+
+        self.line_parsers = ['user_connected', 'user_login', 'user_disconnected', 'server_ready']
         self.parse_file()
+
+    def __init_server_states(self):
+        self.users_connections = []
+        self.users_disconnections = []
+        self.last_connected_user = False
+        self.server_ready = False
 
     def parse_file(self):
         for line in self.file:
             result = re.search(self.REGEX_LOG_LINE, line)
             if result:
-                self.lines.append(LogLine(
-                    datetime.strptime(result.group('date_time'), '%Y-%m-%d %H:%M:%S.%f'),
-                    result.group('body')
-                ))
+                line_date = datetime.strptime(result.group('date_time'), '%Y-%m-%d %H:%M:%S.%f')
+                line_body = result.group('body')
+                for parser_name in self.line_parsers:
+                    if self.call_parser(parser_name, line_body, line_date):
+                        break
 
-    def list_users(self):
-        connected_users = []
-        next_one_is_user_id = False
-        for logLine in self.lines:
-            if next_one_is_user_id:
-                result = re.search(self.REGEX_USER_ID, logLine.body)
-                connected_users[-1].user_id = result.group('user_id')
-                next_one_is_user_id = False
-            else:
-                result = re.search(self.REGEX_USER_CONNECTED, logLine.body)
-                if result:
-                    connected_users.append(User(result.group('login'), logLine.date))
-                    next_one_is_user_id = True
-                else:
-                    result = re.search(self.REGEX_USER_DISCONNECTED, logLine.body)
-                    if result:
-                        self.remove_user_from_list(connected_users, result.group('login'))
-        return connected_users
+    def call_parser(self, parser_name, line_body, line_date):
+        parser = getattr(self, 'parse_' + parser_name)
+        return parser(line_body, line_date)
 
-    @staticmethod
-    def remove_user_from_list(user_list, user_name):
-        for user in user_list:
-            if user.login == user_name:
-                user_list.remove(user)
-                break
+    def parse_user_connected(self, body, date):
+        result = re.search(self.REGEX_USER_CONNECTED, body)
+        if result:
+            user = UserFactory.get_user_by_id(result.group('user_id'))
+            self.users_connections.append({'date': date, 'user': user})
+            self.last_connected_user = user
+            return True
 
-    def get_start_time(self):
-        for logLine in self.lines:
-            if re.search(self.REGEX_SERVER_INITIALIZED, logLine.body):
-                return logLine.date
+    def parse_user_login(self, body, date):
+        if self.last_connected_user:
+            result = re.search(self.REGEX_USER_LOGIN, body)
+            if result:
+                self.last_connected_user.login = result.group('login')
+                self.last_connected_user = False
+                return True
+
+    def parse_user_disconnected(self, body, date):
+        result = re.search(self.REGEX_USER_DISCONNECTED, body)
+        if result:
+            user = UserFactory.get_user_by_login(result.group('login'))
+            self.users_disconnections.append({'date': date, 'user': user})
+            return True
+
+    def parse_server_ready(self, body, date):
+        if re.search(self.REGEX_SERVER_INITIALIZED, body):
+            self.server_ready = date
 
 
 class LogFilesManager:

@@ -7,9 +7,13 @@ from SeLogs import LogFileReader
 test_file = '/home/ggentile/PycharmProjects/se-manager/SpaceEngineersDedicated_20140902_185151.log'
 
 log_reader = LogFileReader(test_file)
-print(log_reader.list_users())
-print(log_reader.get_start_time())
 
+print(
+    log_reader.users_connections[0]['user'],
+    log_reader.users_disconnections[0]['date'],
+    log_reader.last_connected_user,
+    log_reader.server_ready
+)
 class SeManager:
 
     def __init__(self, config_path):
@@ -42,19 +46,37 @@ class SeManager:
     def restore_server(self, server, path):
         pass
 
+    def backup_config(self, server):
+        pass
+
+    def restore_config(self, server):
+        pass
+
     def ban_player(self, server, player_name):
+        pass
+
+    def unban_player(self, server, player_name):
         pass
 
     def op_player(self, server, player_name):
         pass
 
+    def deop_player(self, server, player_name):
+        pass
+
     def add_mod(self, server, mod_id):
+        pass
+
+    def remove_mod(self, server, mod_id):
         pass
 
     def create_server(self, install, server_name):
         pass
 
     def remove_server(self, install, server_name):
+        pass
+
+    def list_servers(self, install=None):
         pass
 
     def update_install(self, install):
@@ -64,4 +86,7 @@ class SeManager:
         pass
 
     def remove_install(self, install):
+        pass
+
+    def list_installs(self):
         pass
