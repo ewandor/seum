@@ -12,11 +12,15 @@ class SeConfigReader:
         self.path = path
         self.tree = et.parse(self.path)
 
-    def get_value(self, node):
-        pass
+    def add_op(self, user_id):
+        op_list = self.tree.find('Administrators')
+        et.SubElement(op_list, 'op').text = user_id
 
-    def set_value(self, node, value):
-        pass
+    def remove_op(self, user_id):
+        op_list = self.tree.find('Administrators')
+        for op in op_list.children():
+            if op.text == user_id:
+                op_list.remove(op)
 
     def save(self):
         shutil.move(self.path, self.path + self.BACKUP_SUFFIX)
