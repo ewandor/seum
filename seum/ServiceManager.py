@@ -1,10 +1,15 @@
-from multiprocessing import connection
-import os
 import re
 import subprocess
 from shutil import copytree
 
-__author__ = 'ggentile'
+__author__ = "Ewandor"
+__copyright__ = "Copyright 2014-2015, Ewandor"
+__credits__ = ["Ewandor"]
+__maintainer__ = "Ewandor"
+__license__ = "MIT"
+__version__ = "0.1"
+__email__ = "ewandor@dorfsvald.net"
+__status__ = "Prototype"
 
 
 class ServerStateManager:

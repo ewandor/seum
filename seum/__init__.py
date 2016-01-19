@@ -1,8 +1,17 @@
-__author__ = 'ggentile'
+"""Main Seum Module"""
 
 from configparser import ConfigParser
 
-from seManager.SeLogs import LogFileReader
+from seum.SeLogs import LogFileReader
+
+__author__ = "Ewandor"
+__copyright__ = "Copyright 2014-2015, Ewandor"
+__credits__ = ["Ewandor"]
+__maintainer__ = "Ewandor"
+__license__ = "MIT"
+__version__ = "0.1"
+__email__ = "ewandor@dorfsvald.net"
+__status__ = "Prototype"
 
 test_file = '/home/ggentile/PycharmProjects/se-manager/SpaceEngineersDedicated_20140902_185151.log'
 
@@ -14,6 +23,8 @@ print(
     log_reader.last_connected_user,
     log_reader.server_ready
 )
+
+
 class SeManager:
 
     def __init__(self, config_path):

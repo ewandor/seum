@@ -1,9 +1,18 @@
+"""Log file parser"""
+
 import os
 import re
 
 from datetime import datetime
 
-__author__ = 'ggentile'
+__author__ = "Ewandor"
+__copyright__ = "Copyright 2014-2015, Ewandor"
+__credits__ = ["Ewandor"]
+__maintainer__ = "Ewandor"
+__license__ = "MIT"
+__version__ = "0.1"
+__email__ = "ewandor@dorfsvald.net"
+__status__ = "Prototype"
 
 
 class User:
@@ -27,7 +36,6 @@ class UserFactory:
         for user in cls.users.values():
             if login == user.login:
                 return user
-
 
     @classmethod
     def get_user_by_id(cls, user_id):
