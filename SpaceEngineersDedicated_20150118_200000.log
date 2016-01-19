@@ -1,0 +1,1641 @@
+2016-01-19 00:27:23.045 - Thread:   8 ->  Log Started
+2016-01-19 00:27:23.061 - Thread:   8 ->  Timezone (local - UTC): 1h
+2016-01-19 00:27:23.061 - Thread:   8 ->  App Version: 01_117_013
+2016-01-19 00:27:23.061 - Thread:   8 ->  Steam build: Always true
+2016-01-19 00:27:23.061 - Thread:   8 ->  Is official: True [NO][IS][NAMP]
+2016-01-19 00:27:23.061 - Thread:   8 ->  Environment.ProcessorCount: 2
+2016-01-19 00:27:23.061 - Thread:   8 ->  Environment.OSVersion: Microsoft Windows NT 6.2.9200.0
+2016-01-19 00:27:23.061 - Thread:   8 ->  Environment.CommandLine: "C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\DedicatedServer64\SpaceEngineersDedicated.exe"
+2016-01-19 00:27:23.061 - Thread:   8 ->  Environment.Is64BitProcess: True
+2016-01-19 00:27:23.061 - Thread:   8 ->  Environment.Is64BitOperatingSystem: True
+2016-01-19 00:27:23.061 - Thread:   8 ->  Environment.Version: 4.0.30319.33440
+2016-01-19 00:27:23.061 - Thread:   8 ->  Environment.CurrentDirectory: C:\Windows\system32
+2016-01-19 00:27:23.061 - Thread:   8 ->  MainAssembly.ProcessorArchitecture: Amd64
+2016-01-19 00:27:23.061 - Thread:   8 ->  ExecutingAssembly.ProcessorArchitecture: Amd64
+2016-01-19 00:27:23.061 - Thread:   8 ->  IntPtr.Size: 8
+2016-01-19 00:27:23.061 - Thread:   8 ->  Default Culture: 
+2016-01-19 00:27:23.061 - Thread:   8 ->  Default UI Culture: 
+2016-01-19 00:27:23.062 - Thread:   8 ->  IsAdmin: True
+2016-01-19 00:27:23.279 - Thread:   8 ->  MySandboxGame.Constructor() - START
+2016-01-19 00:27:23.288 - Thread:   8 ->     Game dir: C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\DedicatedServer64
+2016-01-19 00:27:23.288 - Thread:   8 ->     Content dir: C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Content
+2016-01-19 00:27:23.289 - Thread:   8 ->     Found processor count: 2
+2016-01-19 00:27:23.289 - Thread:   8 ->     Using processor count: 2
+2016-01-19 00:27:23.774 - Thread:   8 ->     MyDefinitionManager.LoadScenarios() - START
+2016-01-19 00:27:23.787 - Thread:   8 ->        b30733144dc385125e6bbbb811cf4368b4db8754
+2016-01-19 00:27:26.012 - Thread:   8 ->        Loading scenarios
+2016-01-19 00:27:26.141 - Thread:   8 ->     MyDefinitionManager.LoadScenarios() - END
+2016-01-19 00:27:26.144 - Thread:   8 ->     10e56fbd9ead9aa57833befd1ca38ab618a30a69
+2016-01-19 00:27:26.168 - Thread:   8 ->     Preallocate - START
+2016-01-19 00:27:26.169 - Thread:   8 ->        SyncClass - START
+2016-01-19 00:27:26.171 - Thread:   8 ->        SyncClass - END
+2016-01-19 00:27:26.171 - Thread:   8 ->        MySpaceBuildComponent - START
+2016-01-19 00:27:26.171 - Thread:   8 ->        MySpaceBuildComponent - END
+2016-01-19 00:27:26.171 - Thread:   8 ->        MySpaceWorldGenerator - START
+2016-01-19 00:27:26.197 - Thread:   8 ->        MySpaceWorldGenerator - END
+2016-01-19 00:27:26.197 - Thread:   8 ->        MySpaceRespawnComponent - START
+2016-01-19 00:27:26.200 - Thread:   8 ->        MySpaceRespawnComponent - END
+2016-01-19 00:27:26.201 - Thread:   8 ->        MyEntities - START
+2016-01-19 00:27:26.251 - Thread:   8 ->        MyEntities - END
+2016-01-19 00:27:26.251 - Thread:   8 ->        MyObjectBuilder_Base - START
+2016-01-19 00:27:26.251 - Thread:   8 ->        MyObjectBuilder_Base - END
+2016-01-19 00:27:26.251 - Thread:   8 ->        MyTransparentGeometry - START
+2016-01-19 00:27:26.298 - Thread:   8 ->        MyTransparentGeometry - END
+2016-01-19 00:27:26.298 - Thread:   8 ->        MyCubeGridDeformationTables - START
+2016-01-19 00:27:26.318 - Thread:   8 ->        MyCubeGridDeformationTables - END
+2016-01-19 00:27:26.318 - Thread:   8 ->        MyMath - START
+2016-01-19 00:27:26.319 - Thread:   8 ->        MyMath - END
+2016-01-19 00:27:26.327 - Thread:   8 ->        MyDefinitionManager - START
+2016-01-19 00:27:26.328 - Thread:   8 ->        MyDefinitionManager - END
+2016-01-19 00:27:26.328 - Thread:   8 ->        MyCubeGridDefinitions - START
+2016-01-19 00:27:26.643 - Thread:   8 ->        MyCubeGridDefinitions - END
+2016-01-19 00:27:26.643 - Thread:   8 ->        MyAIActionsParser - START
+2016-01-19 00:27:26.644 - Thread:   8 ->        MyAIActionsParser - END
+2016-01-19 00:27:26.644 - Thread:   8 ->        MyMultiplayerBase - START
+2016-01-19 00:27:26.644 - Thread:   8 ->        MyMultiplayerBase - END
+2016-01-19 00:27:26.644 - Thread:   8 ->        MyMultiplayerServerBase - START
+2016-01-19 00:27:26.644 - Thread:   8 ->        MyMultiplayerServerBase - END
+2016-01-19 00:27:26.644 - Thread:   8 ->        MyDedicatedServerBase - START
+2016-01-19 00:27:26.644 - Thread:   8 ->        MyDedicatedServerBase - END
+2016-01-19 00:27:26.644 - Thread:   8 ->        MyDedicatedServerBattle - START
+2016-01-19 00:27:26.644 - Thread:   8 ->        MyDedicatedServerBattle - END
+2016-01-19 00:27:26.644 - Thread:   8 ->        MyMultiplayerLobbyClient - START
+2016-01-19 00:27:26.644 - Thread:   8 ->        MyMultiplayerLobbyClient - END
+2016-01-19 00:27:26.644 - Thread:   8 ->        MyServerDebugCommands - START
+2016-01-19 00:27:26.654 - Thread:   8 ->        MyServerDebugCommands - END
+2016-01-19 00:27:26.654 - Thread:   8 ->        MyMultiplayerClient - START
+2016-01-19 00:27:26.654 - Thread:   8 ->        MyMultiplayerClient - END
+2016-01-19 00:27:26.654 - Thread:   8 ->        MyMultiplayerLobby - START
+2016-01-19 00:27:26.654 - Thread:   8 ->        MyMultiplayerLobby - END
+2016-01-19 00:27:26.654 - Thread:   8 ->        MyDedicatedServer - START
+2016-01-19 00:27:26.654 - Thread:   8 ->        MyDedicatedServer - END
+2016-01-19 00:27:26.654 - Thread:   8 ->        MyAiTargetManager - START
+2016-01-19 00:27:26.663 - Thread:   8 ->        MyAiTargetManager - END
+2016-01-19 00:27:26.663 - Thread:   8 ->        MySyncHandTool - START
+2016-01-19 00:27:26.665 - Thread:   8 ->        MySyncHandTool - END
+2016-01-19 00:27:26.665 - Thread:   8 ->        MyEntityStatComponent - START
+2016-01-19 00:27:26.669 - Thread:   8 ->        MyEntityStatComponent - END
+2016-01-19 00:27:26.669 - Thread:   8 ->        MyCharacterStatComponent - START
+2016-01-19 00:27:26.669 - Thread:   8 ->        MyCharacterStatComponent - END
+2016-01-19 00:27:26.669 - Thread:   8 ->        MyEntityComponentsDebugDraw - START
+2016-01-19 00:27:26.669 - Thread:   8 ->        MyEntityComponentsDebugDraw - END
+2016-01-19 00:27:26.669 - Thread:   8 ->        MySyncAirtightDoorGeneric - START
+2016-01-19 00:27:26.671 - Thread:   8 ->        MySyncAirtightDoorGeneric - END
+2016-01-19 00:27:26.671 - Thread:   8 ->        MySyncDoor - START
+2016-01-19 00:27:26.672 - Thread:   8 ->        MySyncDoor - END
+2016-01-19 00:27:26.672 - Thread:   8 ->        MySyncGravityGenerator - START
+2016-01-19 00:27:26.674 - Thread:   8 ->        MySyncGravityGenerator - END
+2016-01-19 00:27:26.674 - Thread:   8 ->        MySyncGravityGeneratorSphere - START
+2016-01-19 00:27:26.676 - Thread:   8 ->        MySyncGravityGeneratorSphere - END
+2016-01-19 00:27:26.676 - Thread:   8 ->        MySyncGyro - START
+2016-01-19 00:27:26.680 - Thread:   8 ->        MySyncGyro - END
+2016-01-19 00:27:26.680 - Thread:   8 ->        MySyncLightingBlock - START
+2016-01-19 00:27:26.690 - Thread:   8 ->        MySyncLightingBlock - END
+2016-01-19 00:27:26.690 - Thread:   8 ->        MySyncRadioBroadcaster - START
+2016-01-19 00:27:26.693 - Thread:   8 ->        MySyncRadioBroadcaster - END
+2016-01-19 00:27:26.693 - Thread:   8 ->        MySyncEntity - START
+2016-01-19 00:27:26.695 - Thread:   8 ->        MySyncEntity - END
+2016-01-19 00:27:26.695 - Thread:   8 ->        MySyncOxygenGenerator - START
+2016-01-19 00:27:26.699 - Thread:   8 ->        MySyncOxygenGenerator - END
+2016-01-19 00:27:26.699 - Thread:   8 ->        MySyncAirVent - START
+2016-01-19 00:27:26.702 - Thread:   8 ->        MySyncAirVent - END
+2016-01-19 00:27:26.703 - Thread:   8 ->        MySyncOxygenTank - START
+2016-01-19 00:27:26.709 - Thread:   8 ->        MySyncOxygenTank - END
+2016-01-19 00:27:26.709 - Thread:   8 ->        MySyncButtonPanel - START
+2016-01-19 00:27:26.714 - Thread:   8 ->        MySyncButtonPanel - END
+2016-01-19 00:27:26.714 - Thread:   8 ->        MySyncCameraBlock - START
+2016-01-19 00:27:26.716 - Thread:   8 ->        MySyncCameraBlock - END
+2016-01-19 00:27:26.716 - Thread:   8 ->        MySyncProjector - START
+2016-01-19 00:27:26.734 - Thread:   8 ->        MySyncProjector - END
+2016-01-19 00:27:26.734 - Thread:   8 ->        MySyncTimerBlock - START
+2016-01-19 00:27:26.740 - Thread:   8 ->        MySyncTimerBlock - END
+2016-01-19 00:27:26.740 - Thread:   8 ->        MySyncJumpDrive - START
+2016-01-19 00:27:26.766 - Thread:   8 ->        MySyncJumpDrive - END
+2016-01-19 00:27:26.766 - Thread:   8 ->        MyChatHistory - START
+2016-01-19 00:27:26.766 - Thread:   8 ->        MyChatHistory - END
+2016-01-19 00:27:26.766 - Thread:   8 ->        MySyncControllableEntity - START
+2016-01-19 00:27:26.780 - Thread:   8 ->        MySyncControllableEntity - END
+2016-01-19 00:27:26.780 - Thread:   8 ->        MySyncShipController - START
+2016-01-19 00:27:26.785 - Thread:   8 ->        MySyncShipController - END
+2016-01-19 00:27:26.785 - Thread:   8 ->        MySyncRemoteControl - START
+2016-01-19 00:27:26.795 - Thread:   8 ->        MySyncRemoteControl - END
+2016-01-19 00:27:26.795 - Thread:   8 ->        MySyncJumpDriveSystem - START
+2016-01-19 00:27:26.802 - Thread:   8 ->        MySyncJumpDriveSystem - END
+2016-01-19 00:27:26.802 - Thread:   8 ->        MySyncDestructions - START
+2016-01-19 00:27:26.813 - Thread:   8 ->        MySyncDestructions - END
+2016-01-19 00:27:26.813 - Thread:   8 ->        MyGuiBlueprintScreen - START
+2016-01-19 00:27:26.917 - Thread:   8 ->        MyGuiBlueprintScreen - END
+2016-01-19 00:27:26.917 - Thread:   8 ->        MyGuiIngameScriptsPage - START
+2016-01-19 00:27:26.918 - Thread:   8 ->        MyGuiIngameScriptsPage - END
+2016-01-19 00:27:26.918 - Thread:   8 ->        MySyncAdvancedDoor - START
+2016-01-19 00:27:26.919 - Thread:   8 ->        MySyncAdvancedDoor - END
+2016-01-19 00:27:26.919 - Thread:   8 ->        MySyncEnvironmentItems - START
+2016-01-19 00:27:26.928 - Thread:   8 ->        MySyncEnvironmentItems - END
+2016-01-19 00:27:26.928 - Thread:   8 ->        MyGuiScreenAdminMenu - START
+2016-01-19 00:27:26.928 - Thread:   8 ->        MyGuiScreenAdminMenu - END
+2016-01-19 00:27:26.928 - Thread:   8 ->        MyCommandCharacter - START
+2016-01-19 00:27:26.933 - Thread:   8 ->        MyCommandCharacter - END
+2016-01-19 00:27:26.933 - Thread:   8 ->        MyCommandConsole - START
+2016-01-19 00:27:26.934 - Thread:   8 ->        MyCommandConsole - END
+2016-01-19 00:27:26.934 - Thread:   8 ->        MyCommandEntity - START
+2016-01-19 00:27:26.936 - Thread:   8 ->        MyCommandEntity - END
+2016-01-19 00:27:26.936 - Thread:   8 ->        MyGpsCollection - START
+2016-01-19 00:27:26.943 - Thread:   8 ->        MyGpsCollection - END
+2016-01-19 00:27:26.943 - Thread:   8 ->        MySyncConveyorSorter - START
+2016-01-19 00:27:26.949 - Thread:   8 ->        MySyncConveyorSorter - END
+2016-01-19 00:27:26.949 - Thread:   8 ->        MySyncLaserAntenna - START
+2016-01-19 00:27:26.955 - Thread:   8 ->        MySyncLaserAntenna - END
+2016-01-19 00:27:26.955 - Thread:   8 ->        MySyncManipulationTool - START
+2016-01-19 00:27:26.959 - Thread:   8 ->        MySyncManipulationTool - END
+2016-01-19 00:27:26.959 - Thread:   8 ->        MySyncMissionTriggers - START
+2016-01-19 00:27:26.961 - Thread:   8 ->        MySyncMissionTriggers - END
+2016-01-19 00:27:26.961 - Thread:   8 ->        MySyncScenario - START
+2016-01-19 00:27:26.971 - Thread:   8 ->        MySyncScenario - END
+2016-01-19 00:27:26.971 - Thread:   8 ->        MySyncCubeBlock - START
+2016-01-19 00:27:26.971 - Thread:   8 ->        MySyncCubeBlock - END
+2016-01-19 00:27:26.971 - Thread:   8 ->        MySyncSoundBlock - START
+2016-01-19 00:27:26.980 - Thread:   8 ->        MySyncSoundBlock - END
+2016-01-19 00:27:26.980 - Thread:   8 ->        MySyncSpaceBall - START
+2016-01-19 00:27:26.985 - Thread:   8 ->        MySyncSpaceBall - END
+2016-01-19 00:27:26.985 - Thread:   8 ->        MyCameraCollection - START
+2016-01-19 00:27:26.987 - Thread:   8 ->        MyCameraCollection - END
+2016-01-19 00:27:26.987 - Thread:   8 ->        MySyncHelper - START
+2016-01-19 00:27:26.991 - Thread:   8 ->        MySyncHelper - END
+2016-01-19 00:27:26.991 - Thread:   8 ->        MySyncSensorBlock - START
+2016-01-19 00:27:26.999 - Thread:   8 ->        MySyncSensorBlock - END
+2016-01-19 00:27:26.999 - Thread:   8 ->        MySyncTextPanel - START
+2016-01-19 00:27:27.016 - Thread:   8 ->        MySyncTextPanel - END
+2016-01-19 00:27:27.016 - Thread:   8 ->        MySyncGrid - START
+2016-01-19 00:27:27.067 - Thread:   8 ->        MySyncGrid - END
+2016-01-19 00:27:27.067 - Thread:   8 ->        MySyncMotorSuspension - START
+2016-01-19 00:27:27.080 - Thread:   8 ->        MySyncMotorSuspension - END
+2016-01-19 00:27:27.080 - Thread:   8 ->        MyFactionCollection - START
+2016-01-19 00:27:27.086 - Thread:   8 ->        MyFactionCollection - END
+2016-01-19 00:27:27.086 - Thread:   8 ->        MySyncThrower - START
+2016-01-19 00:27:27.088 - Thread:   8 ->        MySyncThrower - END
+2016-01-19 00:27:27.088 - Thread:   8 ->        MyToolBarCollection - START
+2016-01-19 00:27:27.094 - Thread:   8 ->        MyToolBarCollection - END
+2016-01-19 00:27:27.094 - Thread:   8 ->        MySyncProgrammableBlock - START
+2016-01-19 00:27:27.101 - Thread:   8 ->        MySyncProgrammableBlock - END
+2016-01-19 00:27:27.101 - Thread:   8 ->        MySyncMissiles - START
+2016-01-19 00:27:27.102 - Thread:   8 ->        MySyncMissiles - END
+2016-01-19 00:27:27.102 - Thread:   8 ->        MyScriptedGroupsSystem - START
+2016-01-19 00:27:27.103 - Thread:   8 ->        MyScriptedGroupsSystem - END
+2016-01-19 00:27:27.104 - Thread:   8 ->        MySyncLargeTurret - START
+2016-01-19 00:27:27.118 - Thread:   8 ->        MySyncLargeTurret - END
+2016-01-19 00:27:27.118 - Thread:   8 ->        MySyncConveyors - START
+2016-01-19 00:27:27.120 - Thread:   8 ->        MySyncConveyors - END
+2016-01-19 00:27:27.120 - Thread:   8 ->        MySyncMeteorShower - START
+2016-01-19 00:27:27.121 - Thread:   8 ->        MySyncMeteorShower - END
+2016-01-19 00:27:27.121 - Thread:   8 ->        MySyncBattery - START
+2016-01-19 00:27:27.123 - Thread:   8 ->        MySyncBattery - END
+2016-01-19 00:27:27.123 - Thread:   8 ->        MySyncCockpit - START
+2016-01-19 00:27:27.123 - Thread:   8 ->        MySyncCockpit - END
+2016-01-19 00:27:27.123 - Thread:   8 ->        MySyncFloatingObjects - START
+2016-01-19 00:27:27.160 - Thread:   8 ->        MySyncFloatingObjects - END
+2016-01-19 00:27:27.160 - Thread:   8 ->        MySyncBlockHelpers - START
+2016-01-19 00:27:27.162 - Thread:   8 ->        MySyncBlockHelpers - END
+2016-01-19 00:27:27.162 - Thread:   8 ->        MySyncWarhead - START
+2016-01-19 00:27:27.168 - Thread:   8 ->        MySyncWarhead - END
+2016-01-19 00:27:27.168 - Thread:   8 ->        ProductionBlockSync - START
+2016-01-19 00:27:27.173 - Thread:   8 ->        ProductionBlockSync - END
+2016-01-19 00:27:27.173 - Thread:   8 ->        SyncClass - START
+2016-01-19 00:27:27.179 - Thread:   8 ->        SyncClass - END
+2016-01-19 00:27:27.179 - Thread:   8 ->        MySyncExplosions - START
+2016-01-19 00:27:27.181 - Thread:   8 ->        MySyncExplosions - END
+2016-01-19 00:27:27.181 - Thread:   8 ->        MySyncCharacter - START
+2016-01-19 00:27:27.201 - Thread:   8 ->        MySyncCharacter - END
+2016-01-19 00:27:27.201 - Thread:   8 ->        MyPlayerCollection - START
+2016-01-19 00:27:27.222 - Thread:   8 ->        MyPlayerCollection - END
+2016-01-19 00:27:27.223 - Thread:   8 ->        MySyncCreate - START
+2016-01-19 00:27:27.224 - Thread:   8 ->        MySyncCreate - END
+2016-01-19 00:27:27.224 - Thread:   8 ->        MySyncGlobal - START
+2016-01-19 00:27:27.229 - Thread:   8 ->        MySyncGlobal - END
+2016-01-19 00:27:27.229 - Thread:   8 ->        MyMultiplayerSyncObject - START
+2016-01-19 00:27:27.235 - Thread:   8 ->        MyMultiplayerSyncObject - END
+2016-01-19 00:27:27.235 - Thread:   8 ->     Preallocate - END
+2016-01-19 00:27:27.531 - Thread:   8 ->     Bind IP : 0.0.0.0:27016
+2016-01-19 00:27:31.782 - Thread:   8 ->     Server successfully started
+2016-01-19 00:27:31.782 - Thread:   8 ->     Product name: Space Engineers
+2016-01-19 00:27:31.782 - Thread:   8 ->     Desc: Space Engineers
+2016-01-19 00:27:31.782 - Thread:   8 ->     Public IP: 109.24.227.39
+2016-01-19 00:27:31.782 - Thread:   8 ->     Steam ID: 90099016809709576
+2016-01-19 00:27:31.798 - Thread:   8 ->  MySandboxGame.Constructor() - END
+2016-01-19 00:27:31.804 - Thread:   8 ->  MySandboxGame.Initialize() - START
+2016-01-19 00:27:32.056 - Thread:   8 ->     MyGuiGameControlsHelpers()
+2016-01-19 00:27:32.159 - Thread:   8 ->     Physics.Init
+2016-01-19 00:27:32.159 - Thread:   8 ->     Version: Release(0), 1800, [S]
+2016-01-19 00:27:32.164 - Thread:   8 ->     HkGameName: SpaceEngineers Release
+2016-01-19 00:27:32.222 - Thread:   8 ->     MyModels.LoadData - START
+2016-01-19 00:27:32.222 - Thread:   8 ->     Pre-caching cube block models
+2016-01-19 00:27:32.222 - Thread:   8 ->     MyModels.LoadData - END
+2016-01-19 00:27:32.222 - Thread:   8 ->     MySandboxGame.LoadData() - START
+2016-01-19 00:27:32.224 - Thread:   8 ->        MyDefinitionManager.LoadSounds() - START
+2016-01-19 00:27:32.228 - Thread:   8 ->           81b18ba6efa71e86bfd1ffb1cdcdeeb6d0a40c88
+2016-01-19 00:27:35.266 - Thread:   8 ->           Loading Sounds
+2016-01-19 00:27:35.275 - Thread:   8 ->        MyDefinitionManager.LoadSounds() - END
+2016-01-19 00:27:35.367 - Thread:   8 ->     MySandboxGame.LoadData() - END
+2016-01-19 00:27:37.988 - Thread:   8 ->     Downloading world mods - START
+2016-01-19 00:27:37.988 - Thread:   8 ->     Downloading world mods - END
+2016-01-19 00:27:38.089 - Thread:   8 ->     Loading session: C:\ProgramData\SpaceEngineersDedicated\Hangar\Saves\Hangar
+2016-01-19 00:28:14.061 - Thread:   8 ->     MyDefinitionManager.LoadData() - START
+2016-01-19 00:28:14.061 - Thread:   8 ->     MyDefinitionManager.LoadScenarios() - START
+2016-01-19 00:28:14.063 - Thread:   8 ->        b30733144dc385125e6bbbb811cf4368b4db8754
+2016-01-19 00:28:14.159 - Thread:   8 ->        Loading scenarios
+2016-01-19 00:28:14.160 - Thread:   8 ->     MyDefinitionManager.LoadScenarios() - END
+2016-01-19 00:28:14.177 - Thread:   8 ->        df0fadf652a43cde0c21c93ab315e69b890bc581
+2016-01-19 00:28:14.594 - Thread:   8 ->        09c65177f1a2f7ee6d92f23d6113fa221b7869b9
+2016-01-19 00:28:14.645 - Thread:   8 ->        d0f406c26ca6233d12ee31e75bfdc188cbee8d1b
+2016-01-19 00:28:14.726 - Thread:   8 ->        a83567f39979dcb9440bad3d93b0dfcbfeb71c94
+2016-01-19 00:28:14.781 - Thread:   8 ->        06f9938215ae8e59ec32b6da01f3a47f326a35d4
+2016-01-19 00:28:14.783 - Thread:   8 ->        b5cbb46bbe07a37f547e473127a5136425623fd8
+2016-01-19 00:28:14.789 - Thread:   8 ->        249f5070cf0d275c939c067df6cb7764ed653939
+2016-01-19 00:28:14.890 - Thread:   8 ->        80e61329c073edfa6954e326d8291ae741804373
+2016-01-19 00:28:14.935 - Thread:   8 ->        17fc93d83c798f49c31f42b4a3514f5163ae806e
+2016-01-19 00:28:14.967 - Thread:   8 ->        1dfa89f1ba18395ebf47eaaedded40e6d1feff14
+2016-01-19 00:28:14.992 - Thread:   8 ->        6fe0e08880f1f7cb684f7237b96050e405278d99
+2016-01-19 00:28:15.043 - Thread:   8 ->        54545a35d8f7eb57724fd1da14aa47e19ebe91ed
+2016-01-19 00:28:15.079 - Thread:   8 ->        19509cf15a609fa5774d3f215014366787ea791c
+2016-01-19 00:28:15.102 - Thread:   8 ->        8d4fd51d74b2d9cda2f430aa8aa51b0728b41bf6
+2016-01-19 00:28:16.780 - Thread:   8 ->        00182aecd6d21015838c6298a7a06e8832fcddca
+2016-01-19 00:28:16.793 - Thread:   8 ->        04cb61ef9594107ee356225b857d84c17ae73175
+2016-01-19 00:28:16.835 - Thread:   8 ->        5628f165631331ce5eab735aad4b4947324fe763
+2016-01-19 00:28:16.860 - Thread:   8 ->        f7ac23411f4e115d585289f5d2896279fe0377be
+2016-01-19 00:28:16.961 - Thread:   8 ->        f7b900c0f244d8b8b52dd3be7abd3a82a9f3756d
+2016-01-19 00:28:47.900 - Thread:   8 ->        cd864971de2b37e146afe26dfa654a40bd4e81f8
+2016-01-19 00:28:47.934 - Thread:   8 ->        878f99b1aac0554a67c2c9c2a08bb5bc4edb68db
+2016-01-19 00:28:47.949 - Thread:   8 ->        b045ecdb0426921fc4ad50990abed5ae5b250f51
+2016-01-19 00:28:47.978 - Thread:   8 ->        b53f89b8389e85ae1c66ac22a30502843bd6ddb1
+2016-01-19 00:28:48.004 - Thread:   8 ->        d5b5908729b88756f137ab336d3796558fbe74c1
+2016-01-19 00:28:48.073 - Thread:   8 ->        770bc0ca0837a8fab7ce118efa742b081fd17ab6
+2016-01-19 00:28:48.099 - Thread:   8 ->        749d6e734107af73cc0602fc86b498afd6e6d1bf
+2016-01-19 00:28:48.114 - Thread:   8 ->        86c634a1e448f2dd61b54e1e5f841d6903fe4ab3
+2016-01-19 00:28:48.128 - Thread:   8 ->        974bbb0bc1238ab95c93852af64e075c2e3a0be8
+2016-01-19 00:28:48.143 - Thread:   8 ->        b39ccd049702b7d30d9ded268eec1bd8427c6a80
+2016-01-19 00:28:48.791 - Thread:   8 ->        5f7ea1fc4b21e7944ab97af92cf96c497124fb9c
+2016-01-19 00:28:48.804 - Thread:   8 ->        919a460482b9e394ae6c16961c941372ab2c749a
+2016-01-19 00:28:48.840 - Thread:   8 ->        f925fe88a2d33d4d7a228ec7fcfee49783e72cb8
+2016-01-19 00:28:48.991 - Thread:   8 ->        f55d0da7432c4b1b53b78a546795f6e814f24e57
+2016-01-19 00:28:49.008 - Thread:   8 ->        2ffcacb1522384ab55cad56d20ed43c694ffee28
+2016-01-19 00:28:49.031 - Thread:   8 ->        813f420c39f96aceab7c0b65b8af57af19502d8a
+2016-01-19 00:28:49.257 - Thread:   8 ->        7e37134535e8bb9d4bddf84e882b9ba72bcbbcf4
+2016-01-19 00:28:49.274 - Thread:   8 ->        b04266f27a7b28299501bb0ece350548aacadbdb
+2016-01-19 00:28:49.295 - Thread:   8 ->        be4caabef4d6c52044ba13cb422ba5039f7df137
+2016-01-19 00:28:49.313 - Thread:   8 ->        91d34848b62c6609fe2df8a939b9fde846d8ced2
+2016-01-19 00:28:49.369 - Thread:   8 ->        e4a65be205c26df7e2ec94e15d02d92ce5f8d30b
+2016-01-19 00:28:49.400 - Thread:   8 ->        2e86e86521878e9b3445aa1f2209c78618ac6d68
+2016-01-19 00:28:49.419 - Thread:   8 ->        c7962bc1eef736e4e15d007e761e458acc3cb00b
+2016-01-19 00:28:49.461 - Thread:   8 ->        c3c797420d3f843eee3161ea187f57383a3f1458
+2016-01-19 00:28:49.483 - Thread:   8 ->        c122a89a41a71e3ff0be774913d2c5d2c0cbb7a4
+2016-01-19 00:28:49.485 - Thread:   8 ->        a99c4b68f3c45836f96918d8d818ef9e61542e0d
+2016-01-19 00:28:49.518 - Thread:   8 ->        7f22a0e843fd518ad247be56ffc6da94b2e19bc9
+2016-01-19 00:28:49.563 - Thread:   8 ->        aa28090ed8725ddd7eaa1a80be680a1d879d432f
+2016-01-19 00:28:49.925 - Thread:   8 ->        9dd785d81f8e0dd3bdf6df6f435c6165333a0158
+2016-01-19 00:28:49.955 - Thread:   8 ->        4049af583ffb3e0f07376f5975b157b65b38c90e
+2016-01-19 00:28:50.071 - Thread:   8 ->        c95e86c6e8afc48f6b48b4bd484ce7bd3ef2d8b7
+2016-01-19 00:28:50.203 - Thread:   8 ->        f1218ee32156a71fcbeb14dc51f792a6e486cf4e
+2016-01-19 00:28:50.278 - Thread:   8 ->        1e3831172d66c345439ed30a9531d46274c93700
+2016-01-19 00:28:50.410 - Thread:   8 ->        565d97096100ccafb84048ddff0558c16906aaf8
+2016-01-19 00:28:50.880 - Thread:   8 ->        da4d938eb7d1bdac07c8f4841a3e455373c8449c
+2016-01-19 00:28:51.050 - Thread:   8 ->        7edbb6666347d5c5fd9dab22d914ff1830a67b3b
+2016-01-19 00:28:51.055 - Thread:   8 ->        3515b75d44f09915e6eee6a218d3814b48776353
+2016-01-19 00:28:51.056 - Thread:   8 ->        2c9c6c0cc922268102564bba40f5dc35e9d14356
+2016-01-19 00:28:51.058 - Thread:   8 ->        ca1d86221dbd625eb3895fcefaf21baea33c12d7
+2016-01-19 00:28:51.059 - Thread:   8 ->        dc1f84221fdb27f6c6f241b639a9d748da693ea6
+2016-01-19 00:28:51.060 - Thread:   8 ->        06b7e5fe65c921b2cc0505ef14e45b194b351c35
+2016-01-19 00:28:51.061 - Thread:   8 ->        8472272a01e0e1fedaeaee04d24eb223aa6ba812
+2016-01-19 00:28:51.063 - Thread:   8 ->        db40bac555f60b05a4c7d5142e9f2db8e3cbbf74
+2016-01-19 00:28:51.064 - Thread:   8 ->        ac21eb1d65e33d4acb7bfda13e3ae8d12af9ae42
+2016-01-19 00:28:51.136 - Thread:   8 ->        897fd59a79e75c8a3eebfb205caaaea2a2c1fe61
+2016-01-19 00:28:51.157 - Thread:   8 ->        ad293c38d38a063247f06854d33fce3c111aea07
+2016-01-19 00:28:51.167 - Thread:   8 ->        2d3bddaa08429aa260d506dab72ff47f0665d564
+2016-01-19 00:28:51.206 - Thread:   8 ->        87086d83a8066e3648369cb27bb1f5138c14fbc2
+2016-01-19 00:28:51.224 - Thread:   8 ->        12e6343dff272a7840b1dc869fa27388a4e56280
+2016-01-19 00:28:51.227 - Thread:   8 ->        1363a54f036642f59828df5d88ffa7fde8eab4d0
+2016-01-19 00:28:51.229 - Thread:   8 ->        f189aca34ac9bb6153cccaf23a488d5939c68184
+2016-01-19 00:28:51.231 - Thread:   8 ->        e9c87c3d368217ee1a4304f1481be9d74863675f
+2016-01-19 00:28:51.234 - Thread:   8 ->        3cd2be94b0b1738e663c702993028cbba0ae0999
+2016-01-19 00:28:51.237 - Thread:   8 ->        3c0e43e44a0b53b54740a0e7cfdff59c3ffd428c
+2016-01-19 00:28:51.312 - Thread:   8 ->        57f6ee602785208b38019832ed4ee9fb680c60c4
+2016-01-19 00:28:51.344 - Thread:   8 ->        c2272d22ae91865a48b93561e0381607395be4ca
+2016-01-19 00:28:51.349 - Thread:   8 ->        b9374bd7680213184989a78c0be08e182dc48a7e
+2016-01-19 00:28:51.352 - Thread:   8 ->        fc90b9c3d33a774d7e492f63bbe8e983ad6da082
+2016-01-19 00:28:51.354 - Thread:   8 ->        39a344e470372e5b8449f528da8d8095ca645f9b
+2016-01-19 00:28:51.361 - Thread:   8 ->        2d42d0f93e34a135247739afbaf44453ccfab828
+2016-01-19 00:28:51.375 - Thread:   8 ->        539530e78462f8a2410d0ac8d27e9b58db9128f3
+2016-01-19 00:28:51.423 - Thread:   8 ->        cbd79561473f024998a52cb10bb45427951bf322
+2016-01-19 00:28:51.440 - Thread:   8 ->        6ecdf1af84a076105401bed338dd24f016ec0498
+2016-01-19 00:28:51.446 - Thread:   8 ->        e113a7def7ce2db434c8a84a109e21529ddb530e
+2016-01-19 00:28:51.453 - Thread:   8 ->        1bd8603c3e74c588a2f5c7858a6baae98a43269e
+2016-01-19 00:28:51.456 - Thread:   8 ->        ea04ace91050c815504ffdab935c2fa403a2176f
+2016-01-19 00:28:51.458 - Thread:   8 ->        86c227c66e8dd8415aee7337bb0a11b815306f86
+2016-01-19 00:28:51.469 - Thread:   8 ->        9f28f4caebecc79d84370c68ebd7b94acbccf292
+2016-01-19 00:28:51.483 - Thread:   8 ->        3824201b8daa91379a30b37500bd02c41676b027
+2016-01-19 00:28:51.491 - Thread:   8 ->        17bc56ec4db55d1e32cba92e41f3fc7fb30ae153
+2016-01-19 00:28:51.497 - Thread:   8 ->        16d61955732290b9ff89ab7eb5a15835609a8822
+2016-01-19 00:28:51.505 - Thread:   8 ->        b21bd6186226a2caa92ae975f75f729fed4ced8b
+2016-01-19 00:28:51.541 - Thread:   8 ->        e00f709cb72e4cd0d995e7233fdc264188864bc9
+2016-01-19 00:28:51.558 - Thread:   8 ->        fc9a0421816be0492fa0a70613127eeb972c8c82
+2016-01-19 00:28:51.565 - Thread:   8 ->        d7e5ce79d178572009f7378fa181dced8eed22c1
+2016-01-19 00:28:51.571 - Thread:   8 ->        406fc6ab748b74190126474813d4356bbd2b4504
+2016-01-19 00:28:51.619 - Thread:   8 ->        a9b4f6fdf794236de5d71cd9fab1cef8cca965f8
+2016-01-19 00:28:51.633 - Thread:   8 ->        06735b60755c32a72ba6cea1f5a05e805313b349
+2016-01-19 00:28:51.636 - Thread:   8 ->        8252b7d98448e692c225eac499f7dcdd5335f975
+2016-01-19 00:28:51.639 - Thread:   8 ->        94635715e9e666b757493c4eb70b8f1f7b438311
+2016-01-19 00:28:51.641 - Thread:   8 ->        779730ede96f3a0388937cd56bcb71ebd33bdb88
+2016-01-19 00:28:51.646 - Thread:   8 ->        fc429e13cd4854176404afb787f83a0e1ec733a9
+2016-01-19 00:28:51.709 - Thread:   8 ->        223b05027188294714560bfc1702a956449a1866
+2016-01-19 00:28:51.735 - Thread:   8 ->        527b378083d2fae340c84920286936fc95cf89f1
+2016-01-19 00:28:51.769 - Thread:   8 ->        06c7cfa605e8dc9332d274c837838f2f452a2794
+2016-01-19 00:28:51.784 - Thread:   8 ->        3f62d94583f12176bc38b5d0b3b2823fc630e29b
+2016-01-19 00:28:51.788 - Thread:   8 ->        e9ea8a0b3c02dd9a39dc865bf0b43e08af955013
+2016-01-19 00:28:51.790 - Thread:   8 ->        5ca996edf6d320e0178cd878907c00f958a8dce5
+2016-01-19 00:28:51.794 - Thread:   8 ->        a4d81d539a4b475a148346a31e4e6c3a5aa0e576
+2016-01-19 00:28:51.798 - Thread:   8 ->        5ef70e28c992f2e43fd6e8a614c68f81712dc874
+2016-01-19 00:28:51.807 - Thread:   8 ->        4d323c9c8b80192a4950b6b5c4fe57b0fd78e077
+2016-01-19 00:28:51.821 - Thread:   8 ->        450f9fe3d721436d3fac899090f65ad3dfa562d3
+2016-01-19 00:28:51.853 - Thread:   8 ->        5ca57ef80a7a443269ff706ea1b0b07edc1af7e0
+2016-01-19 00:28:51.872 - Thread:   8 ->        4ac17a20707247c9f0a920e6082ee6cbcd41ca17
+2016-01-19 00:28:51.902 - Thread:   8 ->        89e6e40db8daddba48c166030f4176cfa11bb5d3
+2016-01-19 00:28:51.946 - Thread:   8 ->        c913166e3f4a07bc842618663d24ff5688356da9
+2016-01-19 00:28:51.964 - Thread:   8 ->        03648a9af348af078a0fadaa6050e5790eaecfd6
+2016-01-19 00:28:51.968 - Thread:   8 ->        fed4f8276568a0eade06d8d2ae25f43b0b9889c1
+2016-01-19 00:28:51.975 - Thread:   8 ->        fa14b0d65a23bb3466b076f58ed05a6ef8cf32ed
+2016-01-19 00:28:52.020 - Thread:   8 ->        bf2ba581894ec831bdfa5fd788ad9e4ecd43008b
+2016-01-19 00:28:52.044 - Thread:   8 ->        cf69c2905dccdb3b688d273f355a8019ac304096
+2016-01-19 00:28:52.051 - Thread:   8 ->        7f1613ea260b6d38a4f7c327b1288040f913b087
+2016-01-19 00:28:52.055 - Thread:   8 ->        1d9013796b8ee641299d23cf6588076733e4d95a
+2016-01-19 00:28:52.065 - Thread:   8 ->        ff034fc2ab713128526a8634763e24ba4c4232b5
+2016-01-19 00:28:52.073 - Thread:   8 ->        7b6b9275fde837e9090ccb4b5bb9312206dc6b0b
+2016-01-19 00:28:52.075 - Thread:   8 ->        306be2fa5e95af8d515875619eff78ee0e194d79
+2016-01-19 00:28:52.078 - Thread:   8 ->        25ed51d1e28721775b0e5f4684bfda5727c96126
+2016-01-19 00:28:52.084 - Thread:   8 ->        8413fd7781f78ccb8dbe28c6e7ab07f83e2e68a7
+2016-01-19 00:28:52.091 - Thread:   8 ->        3ca1f0d9029b3ac7f458a17a2427cd12b6503ada
+2016-01-19 00:28:52.094 - Thread:   8 ->        09e15ee330fe06eccfd7c20e81cae0f3bdb46794
+2016-01-19 00:28:52.126 - Thread:   8 ->        bede9420ce2936c5c1d2249c7e2d193ab03c766b
+2016-01-19 00:28:52.144 - Thread:   8 ->        c625c8c5e2272c81278da7511a9f9701c1d2035e
+2016-01-19 00:28:52.145 - Thread:   8 ->        9b83d85d727627dc75a1721bcf96c3006ba6d7aa
+2016-01-19 00:28:52.146 - Thread:   8 ->        16531410292ebde676f0dac1bebe134d1058c5b1
+2016-01-19 00:28:52.146 - Thread:   8 ->        a370c0bed821028a4f70df34c90cfee97de8832a
+2016-01-19 00:28:52.154 - Thread:   8 ->        6015d78f9db76fc5b1e06c49b2cfbb0d6c008000
+2016-01-19 00:28:52.155 - Thread:   8 ->        6e74806d7fedea1aa7b0b130e2ec659357fee31a
+2016-01-19 00:28:52.155 - Thread:   8 ->        4f933389968b4c15f7fc4b6e2637c66662b6b72d
+2016-01-19 00:28:52.156 - Thread:   8 ->        fff600b5c78d0ca1da6e4765772292f6e6348211
+2016-01-19 00:28:52.290 - Thread:   8 ->        649d66e197ef20d1e8560cea4a0d44a9888207eb
+2016-01-19 00:28:52.333 - Thread:   8 ->        1139b3178f69353cf1117f646f6b72034e2a779e
+2016-01-19 00:28:52.348 - Thread:   8 ->        8a849168e60621b0a148d3ed24bf168d8adbd2e7
+2016-01-19 00:28:52.394 - Thread:   8 ->        47084171393293e5d92806bda02d145c8dbe5d7a
+2016-01-19 00:28:52.404 - Thread:   8 ->        d75da4b003e8dd090c312ebf3b1e8e769d7e5aee
+2016-01-19 00:28:52.433 - Thread:   8 ->        00cf3aad32b948c4d41b4dc1849fb8db6c4d1741
+2016-01-19 00:28:52.587 - Thread:   8 ->        d4502a7aae47b4e911e9967837caf517900f881f
+2016-01-19 00:28:52.708 - Thread:   8 ->        9ab03ce737eb15c96989c0e50105e9e66fe0a1c0
+2016-01-19 00:28:52.817 - Thread:   8 ->        f9bbdf620c1329e7e7921868986d64ca69fda6ae
+2016-01-19 00:28:52.871 - Thread:   8 ->        016d30974569f759453e69baf431f97f5b18932a
+2016-01-19 00:28:52.918 - Thread:   8 ->        e7a4fa7bb288b6ce6ba8f446228426511de5dfb8
+2016-01-19 00:28:52.963 - Thread:   8 ->        364e2e3a849737037893d116114e7ca5fcb44268
+2016-01-19 00:28:52.974 - Thread:   8 ->        146182c5aca19059b821052bd9a6a80203ba5379
+2016-01-19 00:28:52.981 - Thread:   8 ->        cc23b21d367a08e866e1633ec9056de6c411bea3
+2016-01-19 00:28:53.042 - Thread:   8 ->        e9a6374acc79e128d01b8e733ac91c611e10f30f
+2016-01-19 00:28:53.086 - Thread:   8 ->        eae091021c91f4ee5cca811843cf12a511ea87cf
+2016-01-19 00:28:53.091 - Thread:   8 ->        856b3b9227eb180e76a0a917a6e7db514f160307
+2016-01-19 00:28:53.100 - Thread:   8 ->        3bd390a9139e9bc7bacc375730c16aeae642e6c1
+2016-01-19 00:28:53.140 - Thread:   8 ->        651cc10303af7eea47f87b71020867989a9ee1ad
+2016-01-19 00:28:53.153 - Thread:   8 ->        6c5be4f858c7e5ab0f8fa979a22002b1b87ffbba
+2016-01-19 00:28:53.157 - Thread:   8 ->        c288474591b33b5b83cba3cdd66b7989ef953b7e
+2016-01-19 00:28:53.161 - Thread:   8 ->        e869aa590ef1cf5666c125e141eb2460fcb1fec3
+2016-01-19 00:28:53.166 - Thread:   8 ->        bd6b43dda3a9699957583c8850ad53ac8df67fc8
+2016-01-19 00:28:53.172 - Thread:   8 ->        d90ba38c5d84c27891b5bc2ac2c535011fa8787a
+2016-01-19 00:28:53.185 - Thread:   8 ->        54fc5b11c7d4c825a012bb123cc64f20750d6b8c
+2016-01-19 00:28:53.187 - Thread:   8 ->        cc6f820fc0e55309d9df4b1974713c9cb5652a0b
+2016-01-19 00:28:53.245 - Thread:   8 ->        c512adadc7bbc0b9208311e84f3e40544f920aba
+2016-01-19 00:28:53.264 - Thread:   8 ->        e06b910cd7e79c2330d734908dbd6f25822a575d
+2016-01-19 00:28:53.266 - Thread:   8 ->        83f8fda2378f8ffe0c8374f6d42bb982b6613dab
+2016-01-19 00:28:53.269 - Thread:   8 ->        2656f1180a97afd072458c61330492b51ec6feec
+2016-01-19 00:28:53.272 - Thread:   8 ->        0a13304fd5337d03a743839d712dbb139b4ddd13
+2016-01-19 00:28:53.276 - Thread:   8 ->        909208c919de6222b45e1f372c43ef5639b76404
+2016-01-19 00:28:53.279 - Thread:   8 ->        42b8f016391624d8ec8054fd9e0584feef256c9d
+2016-01-19 00:28:53.281 - Thread:   8 ->        8ec2db1a22cfd848e58b760fc0e51346a6b15392
+2016-01-19 00:28:53.291 - Thread:   8 ->        a84c0835447a20ec68bf3d94269a0b3f31e1beba
+2016-01-19 00:28:53.300 - Thread:   8 ->        9461027b72519e5c016baae64011cf7b3e693225
+2016-01-19 00:28:53.304 - Thread:   8 ->        2f3ab301f00c15cdabfec3766d2a0647689606f1
+2016-01-19 00:28:53.307 - Thread:   8 ->        cc3d58ae308a35f0ffe4772066fe120b3a45fdef
+2016-01-19 00:28:53.310 - Thread:   8 ->        6e4101db080f48408ebc716b44ae1a583f87d8a7
+2016-01-19 00:28:53.314 - Thread:   8 ->        813999697612df55b2d2eb9e356c58b07f0fa3de
+2016-01-19 00:28:53.315 - Thread:   8 ->        e587a8c95347e94e8c2ebb85526117ca6110b843
+2016-01-19 00:28:53.319 - Thread:   8 ->        5f10966d6f529add98c309968c3e20c0b3eb4277
+2016-01-19 00:28:53.330 - Thread:   8 ->        9740e0197f4c86866a61fd01e670b992e78ac450
+2016-01-19 00:28:53.341 - Thread:   8 ->        d96efd0c8b71dd72dd3c35c5b8d1d4f2cd070ce2
+2016-01-19 00:28:53.345 - Thread:   8 ->        5bbe02c9a029074fd384bd5d625a389769b6d3a2
+2016-01-19 00:28:53.354 - Thread:   8 ->        9d644eee2eddfe33b65db13995b36adb80b3568d
+2016-01-19 00:28:53.362 - Thread:   8 ->        6b539204b023e568c731a61f39a1d2cdc3be631d
+2016-01-19 00:28:53.416 - Thread:   8 ->        6b35348789052fec2e46224b06d8e657781f5d34
+2016-01-19 00:28:53.454 - Thread:   8 ->        e5b03f445b53e44425365365fb0c5434998b3802
+2016-01-19 00:28:53.500 - Thread:   8 ->        9b4b2fa7a8d43718768da83ee78580629e587627
+2016-01-19 00:28:53.519 - Thread:   8 ->        89bef47b2c949a5e0020fb15b0d2df9fc5a16204
+2016-01-19 00:28:53.521 - Thread:   8 ->        93d6ac3d0316af8fea660e4ec510f5b96b7d6545
+2016-01-19 00:28:53.538 - Thread:   8 ->        Loading behaviors
+2016-01-19 00:28:53.540 - Thread:   8 ->        Loading ammo magazines
+2016-01-19 00:28:53.546 - Thread:   8 ->        Loading ammo definitions
+2016-01-19 00:28:53.553 - Thread:   8 ->        Loading animations
+2016-01-19 00:28:53.560 - Thread:   8 ->        Loading animations
+2016-01-19 00:28:53.560 - Thread:   8 ->        Loading animations
+2016-01-19 00:28:53.560 - Thread:   8 ->        Loading sound definitions
+2016-01-19 00:28:53.562 - Thread:   8 ->        Loading category classes
+2016-01-19 00:28:53.564 - Thread:   8 ->        Loading blueprint classes
+2016-01-19 00:28:53.567 - Thread:   8 ->        Loading blueprint class entries
+2016-01-19 00:28:53.568 - Thread:   8 ->        Loading blueprints
+2016-01-19 00:28:53.574 - Thread:   8 ->        Loading agent definitions
+2016-01-19 00:28:53.578 - Thread:   8 ->        Loading character definitions
+2016-01-19 00:28:53.602 - Thread:   8 ->        Loading character definitions
+2016-01-19 00:28:53.602 - Thread:   8 ->        Loading components
+2016-01-19 00:28:53.604 - Thread:   8 ->        Loading configuration
+2016-01-19 00:28:53.606 - Thread:   8 ->        Loading container types
+2016-01-19 00:28:53.609 - Thread:   8 ->        Loading block positions
+2016-01-19 00:28:53.618 - Thread:   8 ->        Loading curve definitions
+2016-01-19 00:28:53.626 - Thread:   8 ->        Loading debris
+2016-01-19 00:28:53.628 - Thread:   8 ->        Loading environment items entries
+2016-01-19 00:28:53.629 - Thread:   8 ->        Loading edges
+2016-01-19 00:28:53.631 - Thread:   8 ->        Loading environment definition
+2016-01-19 00:28:53.635 - Thread:   8 ->        Loading environment items entries
+2016-01-19 00:28:53.635 - Thread:   8 ->        Loading factions
+2016-01-19 00:28:53.638 - Thread:   8 ->        Loading gas property definitions
+2016-01-19 00:28:53.639 - Thread:   8 ->        Loading event definitions
+2016-01-19 00:28:53.654 - Thread:   8 ->        Loading LCD texture categories
+2016-01-19 00:28:53.657 - Thread:   8 ->        Loading physical items
+2016-01-19 00:28:53.661 - Thread:   8 ->        Loading physical material properties
+2016-01-19 00:28:53.669 - Thread:   8 ->        Loading pirate antennas
+2016-01-19 00:28:53.673 - Thread:   8 ->        Loading planet definition
+2016-01-19 00:28:53.696 - Thread:   8 ->        Loading resource distribution groups
+2016-01-19 00:28:53.696 - Thread:   8 ->        Loading sound categories
+2016-01-19 00:28:53.699 - Thread:   8 ->        Loading stat group definitions
+2016-01-19 00:28:53.705 - Thread:   8 ->        Loading stat definitions
+2016-01-19 00:28:53.706 - Thread:   8 ->        Loading grid creators
+2016-01-19 00:28:53.709 - Thread:   8 ->        Loading transparent material properties
+2016-01-19 00:28:53.711 - Thread:   8 ->        Loading voxel map storage definitions
+2016-01-19 00:28:53.712 - Thread:   8 ->        Loading voxel material definitions
+2016-01-19 00:28:53.725 - Thread:   8 ->        Audio effects definitions
+2016-01-19 00:28:53.734 - Thread:   8 ->        Loading environment item definitions
+2016-01-19 00:28:53.745 - Thread:   8 ->        Loading environment items definitions
+2016-01-19 00:28:53.749 - Thread:   8 ->        Loading environment items definitions
+2016-01-19 00:28:53.750 - Thread:   8 ->        Loading physical material properties
+2016-01-19 00:28:53.763 - Thread:   8 ->        Loading environment item definitions
+2016-01-19 00:28:53.763 - Thread:   8 ->        Loading environment item definitions
+2016-01-19 00:28:53.763 - Thread:   8 ->        Loading voxel material changes definitions
+2016-01-19 00:28:53.763 - Thread:   8 ->        Loading weapon definitions
+2016-01-19 00:28:53.772 - Thread:   8 ->        Loading cube blocks
+2016-01-19 00:28:54.292 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.294 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.294 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.294 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.294 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.294 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.294 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.294 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.294 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.295 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.295 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.295 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.295 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.295 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.295 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.295 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.295 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.295 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.295 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.295 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.295 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.295 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.295 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.295 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.295 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.295 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.295 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.295 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.295 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.295 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.295 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.295 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.295 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.295 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.296 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.296 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.296 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.296 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.296 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.296 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.296 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.296 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.296 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.296 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.296 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.296 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.296 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.296 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.296 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.296 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.296 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.296 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.296 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.296 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.296 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.296 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.296 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.296 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.296 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.296 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.296 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.297 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.297 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.297 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.297 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.297 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.297 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.297 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.297 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.297 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.297 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.297 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.297 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.297 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.298 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.298 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.298 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.298 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.298 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.298 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.298 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.298 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.298 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.298 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.298 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.298 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.298 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.298 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.298 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.298 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.298 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.298 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.298 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.298 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.298 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.298 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.298 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.299 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.299 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.299 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.299 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.299 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.299 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.299 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.299 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.299 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.299 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.299 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.299 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.299 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.299 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.299 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.299 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.299 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.299 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.299 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.299 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.299 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.299 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.299 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.299 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.299 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.299 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.299 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.299 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.299 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.300 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.300 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.300 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.300 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.300 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.300 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.300 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.300 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.300 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.300 - Thread:   8 ->        Loading prefabs
+2016-01-19 00:28:54.302 - Thread:   8 ->        Loading respawn ships
+2016-01-19 00:28:54.304 - Thread:   8 ->        Loading spawn groups
+2016-01-19 00:28:54.340 - Thread:   8 ->        List of used mods (0) - START
+2016-01-19 00:28:54.349 - Thread:   8 ->        List of used mods - END
+2016-01-19 00:28:54.702 - Thread:   8 ->     MyDefinitionManager.LoadData() - END
+2016-01-19 00:28:54.800 - Thread:   8 ->     Registered modules from: Sandbox.Graphics, Version=0.1.5858.33211, Culture=neutral, PublicKeyToken=null
+2016-01-19 00:28:54.806 - Thread:   8 ->     Registered modules from: Sandbox.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2016-01-19 00:28:54.810 - Thread:   8 ->     Registered modules from: SpaceEngineers.Game, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2016-01-19 00:28:54.877 - Thread:   8 ->     Registered modules from: Sandbox.Game, Version=0.1.5858.33212, Culture=neutral, PublicKeyToken=null
+2016-01-19 00:28:55.214 - Thread:   8 ->     GC Memory: 79,567,040 B
+2016-01-19 00:28:55.216 - Thread:   8 ->     Process Memory: 202,809,344 B
+2016-01-19 00:28:58.686 - Thread:   8 ->     Skip Procedural World Generator
+2016-01-19 00:28:58.710 - Thread:   8 ->     MyLights.LoadData() - START
+2016-01-19 00:28:58.712 - Thread:   8 ->     MyLights.LoadData() - END
+2016-01-19 00:28:58.768 - Thread:   8 ->     MyMissiles.LoadContent() - START
+2016-01-19 00:28:58.768 - Thread:   8 ->     MyMissiles.LoadContent() - END
+2016-01-19 00:28:58.770 - Thread:   8 ->     MyExplosions.LoadData() - START
+2016-01-19 00:28:58.788 - Thread:   8 ->     MyExplosions.LoadData() - END
+2016-01-19 00:28:58.841 - Thread:   8 ->     MyParticlesLibrary.ctor - START
+2016-01-19 00:28:59.166 - Thread:   8 ->     MyParticlesLibrary.ctor - END
+2016-01-19 00:28:59.192 - Thread:   8 ->     Pre-loading neutral ship spawn groups...
+2016-01-19 00:28:59.192 - Thread:   8 ->     End pre-loading neutral ship spawn groups.
+2016-01-19 00:28:59.231 - Thread:   8 ->     MySunWind.LoadData() - START
+2016-01-19 00:28:59.232 - Thread:   8 ->     MySunWind.LoadData() - END
+2016-01-19 00:28:59.237 - Thread:   8 ->     MyScriptManager.LoadData() - START
+2016-01-19 00:28:59.866 - Thread:   8 ->        Registered modules from: _StatLogic, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2016-01-19 00:28:59.866 - Thread:   8 ->        Script loaded: _StatLogic, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2016-01-19 00:28:59.866 - Thread:   8 ->     MyScriptManager.LoadData() - END
+2016-01-19 00:29:00.148 - Thread:   8 ->     Loading voxel storage from file 'C:\ProgramData\SpaceEngineersDedicated\Hangar\Saves\Hangar\EarthLike-1152869072d120000.vx2'
+2016-01-19 00:29:05.252 - Thread:   8 ->     Loading voxel storage from file 'C:\ProgramData\SpaceEngineersDedicated\Hangar\Saves\Hangar\Moon-1464649170d19000.vx2'
+2016-01-19 00:29:07.550 - Thread:   8 ->     Loading voxel storage from file 'C:\ProgramData\SpaceEngineersDedicated\Hangar\Saves\Hangar\Alien-422040506d120000.vx2'
+2016-01-19 00:29:10.232 - Thread:   8 ->     Loading voxel storage from file 'C:\ProgramData\SpaceEngineersDedicated\Hangar\Saves\Hangar\Titan-999176804d19000.vx2'
+2016-01-19 00:29:11.457 - Thread:   8 ->     Loading voxel storage from file 'C:\ProgramData\SpaceEngineersDedicated\Hangar\Saves\Hangar\Mars-1109627427d120000.vx2'
+2016-01-19 00:29:12.954 - Thread:   8 ->     Loading voxel storage from file 'C:\ProgramData\SpaceEngineersDedicated\Hangar\Saves\Hangar\Europa-522338624d19000.vx2'
+2016-01-19 00:29:15.607 - Thread:   8 ->     Loading voxel storage from file 'C:\ProgramData\SpaceEngineersDedicated\Hangar\Saves\Hangar\P(Mars-1109627427d120000)S((123, 78, 23))A(StoneCoverageIronCore__333)-0.vx2'
+2016-01-19 00:29:15.631 - Thread:   8 ->     Loading voxel storage from file 'C:\ProgramData\SpaceEngineersDedicated\Hangar\Saves\Hangar\P(Mars-1109627427d120000)S((123, 78, 25))A(StoneCoverageIronCore__419).vx2'
+2016-01-19 00:29:34.123 - Thread:   8 ->     Loading voxel storage from file 'C:\ProgramData\SpaceEngineersDedicated\Hangar\Saves\Hangar\P(Mars-1109627427d120000)S((123, 78, 23))A(StoneCoverageIronCore__323).vx2'
+2016-01-19 00:29:34.943 - Thread:   8 ->     Loading voxel storage from file 'C:\ProgramData\SpaceEngineersDedicated\Hangar\Saves\Hangar\P(Mars-1109627427d120000)S((123, 78, 25))A(StoneCoverageIronCore__299).vx2'
+2016-01-19 00:29:34.945 - Thread:   8 ->     Loading voxel storage from file 'C:\ProgramData\SpaceEngineersDedicated\Hangar\Saves\Hangar\P(Mars-1109627427d120000)S((123, 78, 22))A(StoneCoverageIronCore__697).vx2'
+2016-01-19 00:29:35.177 - Thread:   8 ->     Loading voxel storage from file 'C:\ProgramData\SpaceEngineersDedicated\Hangar\Saves\Hangar\P(Mars-1109627427d120000)S((123, 80, 24))A(StoneCoverageIronCore__119).vx2'
+2016-01-19 00:29:35.750 - Thread:   8 ->     Loading voxel storage from file 'C:\ProgramData\SpaceEngineersDedicated\Hangar\Saves\Hangar\P(Mars-1109627427d120000)S((123, 79, 24))A(StoneCoverageIronCore__905).vx2'
+2016-01-19 00:29:35.752 - Thread:   8 ->     Loading voxel storage from file 'C:\ProgramData\SpaceEngineersDedicated\Hangar\Saves\Hangar\P(Mars-1109627427d120000)S((123, 80, 25))A(StoneCoverageIronCore__925).vx2'
+2016-01-19 00:29:36.505 - Thread:   8 ->     Loading voxel storage from file 'C:\ProgramData\SpaceEngineersDedicated\Hangar\Saves\Hangar\P(Mars-1109627427d120000)S((123, 80, 25))A(StoneCoverageIronCore__967).vx2'
+2016-01-19 00:29:38.386 - Thread:   8 ->     Loading voxel storage from file 'C:\ProgramData\SpaceEngineersDedicated\Hangar\Saves\Hangar\P(Mars-1109627427d120000)S((123, 79, 22))A(StoneCoverageIronCore__14).vx2'
+2016-01-19 00:29:38.388 - Thread:   8 ->     Loading voxel storage from file 'C:\ProgramData\SpaceEngineersDedicated\Hangar\Saves\Hangar\P(Mars-1109627427d120000)S((123, 79, 22))A(StoneCoverageIronCore__73).vx2'
+2016-01-19 00:29:38.465 - Thread:   8 ->     Checkpoint.CameraAttachedTo: 0
+2016-01-19 00:29:38.465 - Thread:   8 ->     ERROR: Camera entity from checkpoint does not exists!
+2016-01-19 00:29:38.469 - Thread:   8 ->     CameraAttachedTo: Spectator
+2016-01-19 00:29:38.518 - Thread:   8 ->     MySession.Static.LogSettings - START
+2016-01-19 00:29:38.518 - Thread:   8 ->        Name = Hangar
+2016-01-19 00:29:38.518 - Thread:   8 ->        Description = 
+2016-01-19 00:29:38.520 - Thread:   8 ->        GameDateTime = 01/01/2081 06:33:06
+2016-01-19 00:29:38.520 - Thread:   8 ->        Password = 
+2016-01-19 00:29:38.520 - Thread:   8 ->        CurrentPath = C:\ProgramData\SpaceEngineersDedicated\Hangar\Saves\Hangar
+2016-01-19 00:29:38.520 - Thread:   8 ->        WorkshopId = 
+2016-01-19 00:29:38.520 - Thread:   8 ->        CameraController = Sandbox.Engine.Utils.MySpectatorCameraController
+2016-01-19 00:29:38.520 - Thread:   8 ->        ThumbPath = C:\ProgramData\SpaceEngineersDedicated\Hangar\Saves\Hangar\thumb.jpg
+2016-01-19 00:29:38.524 - Thread:   8 ->        Settings:
+2016-01-19 00:29:38.524 - Thread:   8 ->           GameMode = Creative
+2016-01-19 00:29:38.524 - Thread:   8 ->           MaxPlayers = 4
+2016-01-19 00:29:38.524 - Thread:   8 ->           OnlineMode = PUBLIC
+2016-01-19 00:29:38.524 - Thread:   8 ->           AutoHealing = True
+2016-01-19 00:29:38.524 - Thread:   8 ->           WeaponsEnabled = True
+2016-01-19 00:29:38.524 - Thread:   8 ->           ThrusterDamage = True
+2016-01-19 00:29:38.524 - Thread:   8 ->           EnableSpectator = False
+2016-01-19 00:29:38.524 - Thread:   8 ->           EnableCopyPaste = True
+2016-01-19 00:29:38.524 - Thread:   8 ->           MaxFloatingObjects = 56
+2016-01-19 00:29:38.524 - Thread:   8 ->           CargoShipsEnabled = False
+2016-01-19 00:29:38.524 - Thread:   8 ->           EnvironmentHostility = SAFE
+2016-01-19 00:29:38.524 - Thread:   8 ->           ShowPlayerNamesOnHud = True
+2016-01-19 00:29:38.524 - Thread:   8 ->           InventorySizeMultiplier = 10
+2016-01-19 00:29:38.524 - Thread:   8 ->           RefinerySpeedMultiplier = 3
+2016-01-19 00:29:38.524 - Thread:   8 ->           AssemblerSpeedMultiplier = 3
+2016-01-19 00:29:38.524 - Thread:   8 ->           AssemblerEfficiencyMultiplier = 3
+2016-01-19 00:29:38.524 - Thread:   8 ->           WelderSpeedMultiplier = 2
+2016-01-19 00:29:38.524 - Thread:   8 ->           GrinderSpeedMultiplier = 2
+2016-01-19 00:29:38.524 - Thread:   8 ->           ClientCanSave = False
+2016-01-19 00:29:38.524 - Thread:   8 ->           HackSpeedMultiplier = 0.33
+2016-01-19 00:29:38.524 - Thread:   8 ->           PermanentDeath = False
+2016-01-19 00:29:38.524 - Thread:   8 ->           DestructibleBlocks =  True
+2016-01-19 00:29:38.524 - Thread:   8 ->           EnableScripts =  True
+2016-01-19 00:29:38.524 - Thread:   8 ->           AutoSaveInMinutes = 5
+2016-01-19 00:29:38.524 - Thread:   8 ->           SpawnShipTimeMultiplier = 0.5
+2016-01-19 00:29:38.524 - Thread:   8 ->           ProceduralDensity = 0
+2016-01-19 00:29:38.524 - Thread:   8 ->           ProceduralSeed = 0
+2016-01-19 00:29:38.524 - Thread:   8 ->           DestructibleBlocks = True
+2016-01-19 00:29:38.524 - Thread:   8 ->           EnableIngameScripts = True
+2016-01-19 00:29:38.524 - Thread:   8 ->           ViewDistance = 15000
+2016-01-19 00:29:38.524 - Thread:   8 ->           Battle = False
+2016-01-19 00:29:38.524 - Thread:   8 ->           Voxel destruction = True
+2016-01-19 00:29:38.524 - Thread:   8 ->     MySession.Static.LogSettings - END
+2016-01-19 00:29:38.590 - Thread:   8 ->     Session loaded
+2016-01-19 00:29:38.605 - Thread:   8 ->  MySandboxGame.Initialize() - END
+2016-01-19 00:29:38.606 - Thread:   8 ->  Timer Frequency: 2734462
+2016-01-19 00:29:38.606 - Thread:   8 ->  Ticks per frame: 45765
+2016-01-19 00:29:38.671 - Thread:   8 ->  Server connected to Steam
+2016-01-19 00:29:38.672 - Thread:   8 ->  Server PolicyResponse (1)
+2016-01-19 00:29:38.687 - Thread:   8 ->  Updating continues.
+2016-01-19 00:29:39.271 - Thread:   8 ->  Loading voxel storage from file 'C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Content\VoxelMaps\MediumStoneIronCoreStoneCoverage.vx2'
+2016-01-19 00:29:39.358 - Thread:   8 ->  Loading voxel storage from file 'C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Content\VoxelMaps\MediumStoneIronCoreStoneCoverage.vx2'
+2016-01-19 00:29:39.362 - Thread:   8 ->  Loading voxel storage from file 'C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Content\VoxelMaps\MediumStoneIronCoreStoneCoverage.vx2'
+2016-01-19 00:29:39.364 - Thread:   8 ->  Loading voxel storage from file 'C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Content\VoxelMaps\MediumStoneIronCoreStoneCoverage.vx2'
+2016-01-19 00:29:40.845 - Thread:   8 ->  GC Memory: 1,481,494,936 B
+2016-01-19 00:29:41.195 - Thread:   8 ->  Loading voxel storage from file 'C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Content\VoxelMaps\MediumStoneIronCoreStoneCoverage.vx2'
+2016-01-19 00:29:41.198 - Thread:   8 ->  Loading voxel storage from file 'C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Content\VoxelMaps\MediumStoneIronCoreStoneCoverage.vx2'
+2016-01-19 00:29:41.769 - Thread:   8 ->  Game ready... Press Ctrl+C to exit
+2016-01-19 00:29:45.319 - Thread:   8 ->  Peer2Peer_SessionRequest 76561198030880896
+2016-01-19 00:29:49.119 - Thread:   8 ->  OnConnectedClient ewandor35 attempt
+2016-01-19 00:29:49.459 - Thread:   8 ->  Server ValidateAuthTicketResponse (OK), owner: 76561198030880896
+2016-01-19 00:29:49.546 - Thread:   8 ->  World request received: ewandor35
+2016-01-19 00:29:49.546 - Thread:   8 ->  ...responding
+2016-01-19 00:29:50.224 - Thread:   8 ->  Loading voxel storage from file 'C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Content\VoxelMaps\MediumStoneIronCoreStoneCoverage.vx2'
+2016-01-19 00:29:50.741 - Thread:   8 ->  Loading voxel storage from file 'C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Content\VoxelMaps\MediumStoneIronCoreSnowCoverage.vx2'
+2016-01-19 00:30:10.862 - Thread:   8 ->  GC Memory: 1,619,256,328 B
+2016-01-19 00:30:20.582 - Thread:   8 ->  Loading voxel storage from file 'C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Content\VoxelMaps\MediumStoneIronCoreSnowCoverage.vx2'
+2016-01-19 00:30:20.776 - Thread:   8 ->  Loading voxel storage from file 'C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Content\VoxelMaps\MediumStoneIronCoreStoneCoverage.vx2'
+2016-01-19 00:30:20.778 - Thread:   8 ->  Loading voxel storage from file 'C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Content\VoxelMaps\MediumStoneIronCoreStoneCoverage.vx2'
+2016-01-19 00:30:20.954 - Thread:   8 ->  Loading voxel storage from file 'C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Content\VoxelMaps\MediumStoneIronCoreSnowCoverage.vx2'
+2016-01-19 00:30:40.866 - Thread:   8 ->  GC Memory: 1,715,648,968 B
+2016-01-19 00:30:56.059 - Thread:   8 ->  Player character died. Id : 76561198030880896
+2016-01-19 00:31:10.873 - Thread:   8 ->  GC Memory: 1,870,998,504 B
+2016-01-19 00:31:40.881 - Thread:   8 ->  GC Memory: 2,125,823,840 B
+2016-01-19 00:32:06.616 - Thread:   8 ->  Peer2Peer_SessionRequest 76561197966179155
+2016-01-19 00:32:07.537 - Thread:   8 ->  OnConnectedClient shade attempt
+2016-01-19 00:32:07.855 - Thread:   8 ->  Server ValidateAuthTicketResponse (OK), owner: 76561197966179155
+2016-01-19 00:32:08.013 - Thread:   8 ->  World request received: shade
+2016-01-19 00:32:08.013 - Thread:   8 ->  ...responding
+2016-01-19 00:32:10.924 - Thread:   8 ->  GC Memory: 2,113,520,760 B
+2016-01-19 00:32:24.385 - Thread:   8 ->  Autosave initiated
+2016-01-19 00:32:24.385 - Thread:   8 ->  Character state: True
+2016-01-19 00:32:24.385 - Thread:   8 ->  IsServer: True
+2016-01-19 00:32:24.385 - Thread:   8 ->  MyAsyncSaving.InProgress: False
+2016-01-19 00:32:24.385 - Thread:   8 ->  Autosave
+2016-01-19 00:32:24.416 - Thread:   8 ->  Saving world - START
+2016-01-19 00:32:24.443 - Thread:   8 ->     Making world state snapshot.
+2016-01-19 00:32:24.444 - Thread:   8 ->     Before snapshot.: GC Memory: 2,125,022,200 B
+2016-01-19 00:32:24.731 - Thread:   8 ->     After snapshot.: GC Memory: 2,141,178,936 B
+2016-01-19 00:32:24.737 - Thread:   8 ->     Directory cleanup: GC Memory: 2,141,178,936 B
+2016-01-19 00:32:24.741 - Thread:   8 ->  Saving world - END
+2016-01-19 00:32:24.758 - Thread:  13 ->  Session snapshot save - START
+2016-01-19 00:32:24.762 - Thread:  13 ->     Checking file access for files in target dir.
+2016-01-19 00:32:38.377 - Thread:  13 ->  Session snapshot save - END
+2016-01-19 00:32:40.933 - Thread:   8 ->  GC Memory: 2,166,039,496 B
+2016-01-19 00:33:10.949 - Thread:   8 ->  GC Memory: 2,206,434,192 B
+2016-01-19 00:33:40.959 - Thread:   8 ->  GC Memory: 2,572,412,160 B
+2016-01-19 00:34:10.980 - Thread:   8 ->  GC Memory: 2,610,735,264 B
+2016-01-19 00:34:40.996 - Thread:   8 ->  GC Memory: 2,480,921,064 B
+2016-01-19 00:35:11.012 - Thread:   8 ->  GC Memory: 2,522,855,704 B
+2016-01-19 00:35:41.014 - Thread:   8 ->  GC Memory: 2,569,787,264 B
+2016-01-19 00:36:11.021 - Thread:   8 ->  GC Memory: 2,613,199,000 B
+2016-01-19 00:36:41.036 - Thread:   8 ->  GC Memory: 2,659,856,176 B
+2016-01-19 00:37:11.040 - Thread:   8 ->  GC Memory: 2,696,063,888 B
+2016-01-19 00:37:24.398 - Thread:   8 ->  Autosave initiated
+2016-01-19 00:37:24.398 - Thread:   8 ->  Character state: True
+2016-01-19 00:37:24.398 - Thread:   8 ->  IsServer: True
+2016-01-19 00:37:24.398 - Thread:   8 ->  MyAsyncSaving.InProgress: False
+2016-01-19 00:37:24.398 - Thread:   8 ->  Autosave
+2016-01-19 00:37:24.398 - Thread:   8 ->  Saving world - START
+2016-01-19 00:37:24.398 - Thread:   8 ->     Making world state snapshot.
+2016-01-19 00:37:24.398 - Thread:   8 ->     Before snapshot.: GC Memory: 2,696,078,528 B
+2016-01-19 00:37:24.525 - Thread:   8 ->     After snapshot.: GC Memory: 2,711,622,552 B
+2016-01-19 00:37:24.526 - Thread:   8 ->     Directory cleanup: GC Memory: 2,711,622,552 B
+2016-01-19 00:37:24.526 - Thread:   8 ->  Saving world - END
+2016-01-19 00:37:24.526 - Thread:  13 ->  Session snapshot save - START
+2016-01-19 00:37:24.526 - Thread:  13 ->     Checking file access for files in target dir.
+2016-01-19 00:37:27.484 - Thread:  13 ->  Session snapshot save - END
+2016-01-19 00:37:41.054 - Thread:   8 ->  GC Memory: 2,881,153,440 B
+2016-01-19 00:38:11.067 - Thread:   8 ->  GC Memory: 2,075,567,680 B
+2016-01-19 00:38:41.081 - Thread:   8 ->  GC Memory: 2,354,895,304 B
+2016-01-19 00:39:11.087 - Thread:   8 ->  GC Memory: 2,654,059,272 B
+2016-01-19 00:39:11.482 - Thread:   8 ->  User left ewandor35
+2016-01-19 00:39:41.096 - Thread:   8 ->  GC Memory: 2,011,643,432 B
+2016-01-19 00:40:11.104 - Thread:   8 ->  GC Memory: 2,131,664,736 B
+2016-01-19 00:40:37.967 - Thread:   8 ->  CreateCompressedMsg: Type: MyObjectBuilder_CubeGrid  Name:   EntityID: 17D314779A1D5BC
+2016-01-19 00:40:38.053 - Thread:   8 ->  Status: Exists(True) InScene(True)
+2016-01-19 00:40:41.109 - Thread:   8 ->  GC Memory: 2,244,110,432 B
+2016-01-19 00:41:02.961 - Thread:   8 ->  Peer2Peer_SessionRequest 76561198030880896
+2016-01-19 00:41:06.508 - Thread:   8 ->  OnConnectedClient ewandor35 attempt
+2016-01-19 00:41:06.860 - Thread:   8 ->  Server ValidateAuthTicketResponse (OK), owner: 76561198030880896
+2016-01-19 00:41:06.877 - Thread:   8 ->  World request received: ewandor35
+2016-01-19 00:41:06.877 - Thread:   8 ->  ...responding
+2016-01-19 00:41:11.120 - Thread:   8 ->  GC Memory: 2,348,196,088 B
+2016-01-19 00:41:37.673 - Thread:   8 ->  Player character died. Id : 76561198030880896
+2016-01-19 00:41:41.128 - Thread:   8 ->  GC Memory: 2,436,127,584 B
+2016-01-19 00:42:11.142 - Thread:   8 ->  GC Memory: 2,499,936,960 B
+2016-01-19 00:42:24.399 - Thread:   8 ->  Autosave initiated
+2016-01-19 00:42:24.399 - Thread:   8 ->  Character state: True
+2016-01-19 00:42:24.399 - Thread:   8 ->  IsServer: True
+2016-01-19 00:42:24.399 - Thread:   8 ->  MyAsyncSaving.InProgress: False
+2016-01-19 00:42:24.399 - Thread:   8 ->  Autosave
+2016-01-19 00:42:24.400 - Thread:   8 ->  Saving world - START
+2016-01-19 00:42:24.400 - Thread:   8 ->     Making world state snapshot.
+2016-01-19 00:42:24.400 - Thread:   8 ->     Before snapshot.: GC Memory: 2,525,297,136 B
+2016-01-19 00:42:24.604 - Thread:   8 ->     After snapshot.: GC Memory: 2,541,140,224 B
+2016-01-19 00:42:24.604 - Thread:   8 ->     Directory cleanup: GC Memory: 2,541,140,224 B
+2016-01-19 00:42:24.604 - Thread:   8 ->  Saving world - END
+2016-01-19 00:42:24.604 - Thread:  13 ->  Session snapshot save - START
+2016-01-19 00:42:24.604 - Thread:  13 ->     Checking file access for files in target dir.
+2016-01-19 00:42:27.500 - Thread:   8 ->  Player character died. Id : 76561198030880896
+2016-01-19 00:42:27.717 - Thread:  13 ->  Session snapshot save - END
+2016-01-19 00:42:41.145 - Thread:   8 ->  GC Memory: 2,569,475,232 B
+2016-01-19 00:43:11.154 - Thread:   8 ->  GC Memory: 2,597,892,512 B
+2016-01-19 00:43:41.164 - Thread:   8 ->  GC Memory: 2,636,203,688 B
+2016-01-19 00:44:11.167 - Thread:   8 ->  GC Memory: 2,686,202,888 B
+2016-01-19 00:44:41.173 - Thread:   8 ->  GC Memory: 2,735,980,920 B
+2016-01-19 00:45:11.193 - Thread:   8 ->  GC Memory: 2,790,249,520 B
+2016-01-19 00:45:41.207 - Thread:   8 ->  GC Memory: 3,181,044,880 B
+2016-01-19 00:46:11.209 - Thread:   8 ->  GC Memory: 3,178,322,600 B
+2016-01-19 00:46:41.218 - Thread:   8 ->  GC Memory: 3,169,684,400 B
+2016-01-19 00:47:11.229 - Thread:   8 ->  GC Memory: 3,431,628,376 B
+2016-01-19 00:47:24.407 - Thread:   8 ->  Autosave initiated
+2016-01-19 00:47:24.407 - Thread:   8 ->  Character state: True
+2016-01-19 00:47:24.407 - Thread:   8 ->  IsServer: True
+2016-01-19 00:47:24.407 - Thread:   8 ->  MyAsyncSaving.InProgress: False
+2016-01-19 00:47:24.407 - Thread:   8 ->  Autosave
+2016-01-19 00:47:24.407 - Thread:   8 ->  Saving world - START
+2016-01-19 00:47:24.407 - Thread:   8 ->     Making world state snapshot.
+2016-01-19 00:47:24.407 - Thread:   8 ->     Before snapshot.: GC Memory: 3,481,203,144 B
+2016-01-19 00:47:24.600 - Thread:   8 ->     After snapshot.: GC Memory: 3,497,304,344 B
+2016-01-19 00:47:24.600 - Thread:   8 ->     Directory cleanup: GC Memory: 3,497,304,344 B
+2016-01-19 00:47:24.600 - Thread:   8 ->  Saving world - END
+2016-01-19 00:47:24.600 - Thread:  13 ->  Session snapshot save - START
+2016-01-19 00:47:24.600 - Thread:  13 ->     Checking file access for files in target dir.
+2016-01-19 00:47:30.562 - Thread:  13 ->  Session snapshot save - END
+2016-01-19 00:47:41.234 - Thread:   8 ->  GC Memory: 2,799,934,736 B
+2016-01-19 00:47:47.258 - Thread:   8 ->  CreateCompressedMsg: Type: MyObjectBuilder_CubeGrid  Name:   EntityID: 12E4EB3CD9AF1F1
+2016-01-19 00:47:47.883 - Thread:   8 ->  Status: Exists(True) InScene(True)
+2016-01-19 00:48:11.237 - Thread:   8 ->  GC Memory: 2,802,640,496 B
+2016-01-19 00:48:41.252 - Thread:   8 ->  GC Memory: 2,803,388,248 B
+2016-01-19 00:49:11.273 - Thread:   8 ->  GC Memory: 2,848,208,488 B
+2016-01-19 00:49:41.281 - Thread:   8 ->  GC Memory: 2,916,573,792 B
+2016-01-19 00:50:11.288 - Thread:   8 ->  GC Memory: 2,977,191,336 B
+2016-01-19 00:50:41.293 - Thread:   8 ->  GC Memory: 3,027,157,296 B
+2016-01-19 00:50:55.851 - Thread:   8 ->  Loading voxel storage from file 'C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Content\VoxelMaps\MediumStoneIronCoreStoneCoverage.vx2'
+2016-01-19 00:51:02.020 - Thread:   8 ->  Loading voxel storage from file 'C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Content\VoxelMaps\MediumStoneIronCoreStoneCoverage.vx2'
+2016-01-19 00:51:02.022 - Thread:   8 ->  Loading voxel storage from file 'C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Content\VoxelMaps\MediumStoneIronCoreStoneCoverage.vx2'
+2016-01-19 00:51:11.300 - Thread:   8 ->  GC Memory: 3,074,035,640 B
+2016-01-19 00:51:41.312 - Thread:   8 ->  GC Memory: 3,122,156,200 B
+2016-01-19 00:52:11.327 - Thread:   8 ->  GC Memory: 3,161,920,640 B
+2016-01-19 00:52:24.413 - Thread:   8 ->  Autosave initiated
+2016-01-19 00:52:24.413 - Thread:   8 ->  Character state: True
+2016-01-19 00:52:24.413 - Thread:   8 ->  IsServer: True
+2016-01-19 00:52:24.413 - Thread:   8 ->  MyAsyncSaving.InProgress: False
+2016-01-19 00:52:24.413 - Thread:   8 ->  Autosave
+2016-01-19 00:52:24.413 - Thread:   8 ->  Saving world - START
+2016-01-19 00:52:24.413 - Thread:   8 ->     Making world state snapshot.
+2016-01-19 00:52:24.413 - Thread:   8 ->     Before snapshot.: GC Memory: 3,181,206,728 B
+2016-01-19 00:52:24.587 - Thread:   8 ->     After snapshot.: GC Memory: 3,197,036,824 B
+2016-01-19 00:52:24.587 - Thread:   8 ->     Directory cleanup: GC Memory: 3,197,036,824 B
+2016-01-19 00:52:24.587 - Thread:   8 ->  Saving world - END
+2016-01-19 00:52:24.587 - Thread:  13 ->  Session snapshot save - START
+2016-01-19 00:52:24.587 - Thread:  13 ->     Checking file access for files in target dir.
+2016-01-19 00:52:27.878 - Thread:  13 ->  Session snapshot save - END
+2016-01-19 00:52:41.329 - Thread:   8 ->  GC Memory: 3,225,274,096 B
+2016-01-19 00:53:11.357 - Thread:   8 ->  GC Memory: 3,241,435,720 B
+2016-01-19 00:53:41.370 - Thread:   8 ->  GC Memory: 3,286,643,736 B
+2016-01-19 00:54:11.379 - Thread:   8 ->  GC Memory: 3,335,535,736 B
+2016-01-19 00:54:41.394 - Thread:   8 ->  GC Memory: 3,370,483,544 B
+2016-01-19 00:55:11.403 - Thread:   8 ->  GC Memory: 3,369,555,464 B
+2016-01-19 00:55:41.410 - Thread:   8 ->  GC Memory: 3,371,901,552 B
+2016-01-19 00:55:53.541 - Thread:   8 ->  Loading voxel storage from file 'C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Content\VoxelMaps\MediumStoneIronCoreStoneCoverage.vx2'
+2016-01-19 00:55:53.544 - Thread:   8 ->  Loading voxel storage from file 'C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Content\VoxelMaps\MediumStoneIronCoreStoneCoverage.vx2'
+2016-01-19 00:56:11.429 - Thread:   8 ->  GC Memory: 2,393,203,192 B
+2016-01-19 00:56:41.444 - Thread:   8 ->  GC Memory: 2,395,549,760 B
+2016-01-19 00:57:11.454 - Thread:   8 ->  GC Memory: 2,397,816,640 B
+2016-01-19 00:57:24.413 - Thread:   8 ->  Autosave initiated
+2016-01-19 00:57:24.413 - Thread:   8 ->  Character state: True
+2016-01-19 00:57:24.413 - Thread:   8 ->  IsServer: True
+2016-01-19 00:57:24.413 - Thread:   8 ->  MyAsyncSaving.InProgress: False
+2016-01-19 00:57:24.413 - Thread:   8 ->  Autosave
+2016-01-19 00:57:24.414 - Thread:   8 ->  Saving world - START
+2016-01-19 00:57:24.414 - Thread:   8 ->     Making world state snapshot.
+2016-01-19 00:57:24.414 - Thread:   8 ->     Before snapshot.: GC Memory: 2,400,168,032 B
+2016-01-19 00:57:24.536 - Thread:   8 ->     After snapshot.: GC Memory: 2,414,124,720 B
+2016-01-19 00:57:24.536 - Thread:   8 ->     Directory cleanup: GC Memory: 2,414,124,720 B
+2016-01-19 00:57:24.536 - Thread:   8 ->  Saving world - END
+2016-01-19 00:57:24.536 - Thread:  13 ->  Session snapshot save - START
+2016-01-19 00:57:24.536 - Thread:  13 ->     Checking file access for files in target dir.
+2016-01-19 00:57:28.384 - Thread:  13 ->  Session snapshot save - END
+2016-01-19 00:57:41.461 - Thread:   8 ->  GC Memory: 2,407,266,688 B
+2016-01-19 00:58:11.464 - Thread:   8 ->  GC Memory: 2,409,022,664 B
+2016-01-19 00:58:41.472 - Thread:   8 ->  GC Memory: 2,412,503,680 B
+2016-01-19 00:59:11.479 - Thread:   8 ->  GC Memory: 2,390,193,344 B
+2016-01-19 00:59:41.487 - Thread:   8 ->  GC Memory: 2,389,952,688 B
+2016-01-19 01:00:11.846 - Thread:   8 ->  GC Memory: 2,636,752,816 B
+2016-01-19 01:00:41.858 - Thread:   8 ->  GC Memory: 2,553,796,344 B
+2016-01-19 01:01:11.877 - Thread:   8 ->  GC Memory: 2,957,820,696 B
+2016-01-19 01:01:41.878 - Thread:   8 ->  GC Memory: 2,900,120,800 B
+2016-01-19 01:02:11.882 - Thread:   8 ->  GC Memory: 3,297,797,312 B
+2016-01-19 01:02:24.422 - Thread:   8 ->  Autosave initiated
+2016-01-19 01:02:24.422 - Thread:   8 ->  Character state: True
+2016-01-19 01:02:24.422 - Thread:   8 ->  IsServer: True
+2016-01-19 01:02:24.422 - Thread:   8 ->  MyAsyncSaving.InProgress: False
+2016-01-19 01:02:24.422 - Thread:   8 ->  Autosave
+2016-01-19 01:02:24.422 - Thread:   8 ->  Saving world - START
+2016-01-19 01:02:24.422 - Thread:   8 ->     Making world state snapshot.
+2016-01-19 01:02:24.422 - Thread:   8 ->     Before snapshot.: GC Memory: 3,330,238,864 B
+2016-01-19 01:02:24.662 - Thread:   8 ->     After snapshot.: GC Memory: 3,347,140,776 B
+2016-01-19 01:02:24.663 - Thread:   8 ->     Directory cleanup: GC Memory: 3,347,140,776 B
+2016-01-19 01:02:24.663 - Thread:   8 ->  Saving world - END
+2016-01-19 01:02:24.663 - Thread:  13 ->  Session snapshot save - START
+2016-01-19 01:02:24.663 - Thread:  13 ->     Checking file access for files in target dir.
+2016-01-19 01:02:27.584 - Thread:   8 ->  CreateCompressedMsg: Type: MyObjectBuilder_CubeGrid  Name:   EntityID: 1DB136735A1359A
+2016-01-19 01:02:27.586 - Thread:   8 ->  Status: Exists(True) InScene(True)
+2016-01-19 01:02:28.256 - Thread:  13 ->  Session snapshot save - END
+2016-01-19 01:02:41.885 - Thread:   8 ->  GC Memory: 3,407,095,320 B
+2016-01-19 01:02:56.343 - Thread:   8 ->  CreateCompressedMsg: Type: MyObjectBuilder_CubeGrid  Name:   EntityID: 150E003F740485F
+2016-01-19 01:02:56.344 - Thread:   8 ->  Status: Exists(True) InScene(True)
+2016-01-19 01:03:11.889 - Thread:   8 ->  GC Memory: 2,766,144,064 B
+2016-01-19 01:03:41.903 - Thread:   8 ->  GC Memory: 2,875,246,272 B
+2016-01-19 01:04:11.906 - Thread:   8 ->  GC Memory: 2,964,807,664 B
+2016-01-19 01:04:41.913 - Thread:   8 ->  GC Memory: 3,060,758,832 B
+2016-01-19 01:05:11.918 - Thread:   8 ->  GC Memory: 3,149,269,136 B
+2016-01-19 01:05:41.967 - Thread:   8 ->  GC Memory: 3,226,749,448 B
+2016-01-19 01:06:11.980 - Thread:   8 ->  GC Memory: 3,294,738,888 B
+2016-01-19 01:06:42.001 - Thread:   8 ->  GC Memory: 3,362,564,840 B
+2016-01-19 01:07:12.010 - Thread:   8 ->  GC Memory: 3,426,588,968 B
+2016-01-19 01:07:22.697 - Thread:   8 ->  Server ValidateAuthTicketResponse (AuthTicketCanceled), owner: 76561198030880896
+2016-01-19 01:07:22.739 - Thread:   8 ->  User left ewandor35
+2016-01-19 01:07:22.774 - Thread:   8 ->  Peer2Peer_ConnectionFailed 76561198030880896, Timeout
+2016-01-19 01:07:24.426 - Thread:   8 ->  Autosave initiated
+2016-01-19 01:07:24.426 - Thread:   8 ->  Character state: True
+2016-01-19 01:07:24.426 - Thread:   8 ->  IsServer: True
+2016-01-19 01:07:24.426 - Thread:   8 ->  MyAsyncSaving.InProgress: False
+2016-01-19 01:07:24.426 - Thread:   8 ->  Autosave
+2016-01-19 01:07:24.426 - Thread:   8 ->  Saving world - START
+2016-01-19 01:07:24.426 - Thread:   8 ->     Making world state snapshot.
+2016-01-19 01:07:24.426 - Thread:   8 ->     Before snapshot.: GC Memory: 3,442,507,944 B
+2016-01-19 01:07:26.440 - Thread:   8 ->     After snapshot.: GC Memory: 3,459,216,672 B
+2016-01-19 01:07:26.441 - Thread:   8 ->     Directory cleanup: GC Memory: 3,459,216,672 B
+2016-01-19 01:07:26.441 - Thread:   8 ->  Saving world - END
+2016-01-19 01:07:26.441 - Thread:  13 ->  Session snapshot save - START
+2016-01-19 01:07:26.442 - Thread:  13 ->     Checking file access for files in target dir.
+2016-01-19 01:07:35.205 - Thread:  13 ->  Session snapshot save - END
+2016-01-19 01:07:42.026 - Thread:   8 ->  GC Memory: 3,479,900,568 B
+2016-01-19 01:08:12.033 - Thread:   8 ->  GC Memory: 3,545,018,344 B
+2016-01-19 01:08:42.039 - Thread:   8 ->  GC Memory: 3,584,043,952 B
+2016-01-19 01:09:12.095 - Thread:   8 ->  GC Memory: 3,650,709,864 B
+2016-01-19 01:09:42.109 - Thread:   8 ->  GC Memory: 3,718,487,232 B
+2016-01-19 01:10:12.117 - Thread:   8 ->  GC Memory: 3,786,638,840 B
+2016-01-19 01:10:42.134 - Thread:   8 ->  GC Memory: 3,863,098,848 B
+2016-01-19 01:11:12.139 - Thread:   8 ->  GC Memory: 3,918,161,368 B
+2016-01-19 01:11:42.171 - Thread:   8 ->  GC Memory: 4,000,459,968 B
+2016-01-19 01:12:23.410 - Thread:   8 ->  GC Memory: 2,519,107,440 B
+2016-01-19 01:12:24.441 - Thread:   8 ->  Autosave initiated
+2016-01-19 01:12:24.441 - Thread:   8 ->  Character state: True
+2016-01-19 01:12:24.441 - Thread:   8 ->  IsServer: True
+2016-01-19 01:12:24.441 - Thread:   8 ->  MyAsyncSaving.InProgress: False
+2016-01-19 01:12:24.441 - Thread:   8 ->  Autosave
+2016-01-19 01:12:24.441 - Thread:   8 ->  Saving world - START
+2016-01-19 01:12:24.441 - Thread:   8 ->     Making world state snapshot.
+2016-01-19 01:12:24.441 - Thread:   8 ->     Before snapshot.: GC Memory: 2,520,074,736 B
+2016-01-19 01:12:24.607 - Thread:   8 ->     After snapshot.: GC Memory: 2,538,269,256 B
+2016-01-19 01:12:24.607 - Thread:   8 ->     Directory cleanup: GC Memory: 2,538,269,256 B
+2016-01-19 01:12:24.607 - Thread:   8 ->  Saving world - END
+2016-01-19 01:12:24.608 - Thread:  13 ->  Session snapshot save - START
+2016-01-19 01:12:24.608 - Thread:  13 ->     Checking file access for files in target dir.
+2016-01-19 01:12:27.498 - Thread:  13 ->  Session snapshot save - END
+2016-01-19 01:12:53.420 - Thread:   8 ->  GC Memory: 2,538,967,968 B
+2016-01-19 01:13:23.428 - Thread:   8 ->  GC Memory: 2,539,221,768 B
+2016-01-19 01:13:53.437 - Thread:   8 ->  GC Memory: 2,539,467,592 B
+2016-01-19 01:14:23.445 - Thread:   8 ->  GC Memory: 2,519,254,808 B
+2016-01-19 01:14:53.460 - Thread:   8 ->  GC Memory: 2,519,592,272 B
+2016-01-19 01:15:23.462 - Thread:   8 ->  GC Memory: 2,519,918,488 B
+2016-01-19 01:15:53.469 - Thread:   8 ->  GC Memory: 2,520,213,424 B
+2016-01-19 01:16:23.479 - Thread:   8 ->  GC Memory: 2,520,540,952 B
+2016-01-19 01:16:53.486 - Thread:   8 ->  GC Memory: 2,519,305,112 B
+2016-01-19 01:17:23.495 - Thread:   8 ->  GC Memory: 2,519,179,840 B
+2016-01-19 01:17:24.448 - Thread:   8 ->  Autosave initiated
+2016-01-19 01:17:24.448 - Thread:   8 ->  Character state: True
+2016-01-19 01:17:24.448 - Thread:   8 ->  IsServer: True
+2016-01-19 01:17:24.448 - Thread:   8 ->  MyAsyncSaving.InProgress: False
+2016-01-19 01:17:24.448 - Thread:   8 ->  Autosave
+2016-01-19 01:17:24.449 - Thread:   8 ->  Saving world - START
+2016-01-19 01:17:24.449 - Thread:   8 ->     Making world state snapshot.
+2016-01-19 01:17:24.449 - Thread:   8 ->     Before snapshot.: GC Memory: 2,519,573,056 B
+2016-01-19 01:17:24.570 - Thread:   8 ->     After snapshot.: GC Memory: 2,538,273,272 B
+2016-01-19 01:17:24.570 - Thread:   8 ->     Directory cleanup: GC Memory: 2,538,273,272 B
+2016-01-19 01:17:24.570 - Thread:   8 ->  Saving world - END
+2016-01-19 01:17:24.570 - Thread:  13 ->  Session snapshot save - START
+2016-01-19 01:17:24.570 - Thread:  13 ->     Checking file access for files in target dir.
+2016-01-19 01:17:27.119 - Thread:  13 ->  Session snapshot save - END
+2016-01-19 01:17:53.511 - Thread:   8 ->  GC Memory: 2,539,468,672 B
+2016-01-19 01:18:23.526 - Thread:   8 ->  GC Memory: 2,538,885,632 B
+2016-01-19 01:18:53.530 - Thread:   8 ->  GC Memory: 2,539,214,904 B
+2016-01-19 01:19:23.538 - Thread:   8 ->  GC Memory: 2,519,290,872 B
+2016-01-19 01:19:53.546 - Thread:   8 ->  GC Memory: 2,519,921,384 B
+2016-01-19 01:20:23.554 - Thread:   8 ->  GC Memory: 2,520,659,432 B
+2016-01-19 01:20:53.563 - Thread:   8 ->  GC Memory: 2,522,895,376 B
+2016-01-19 01:21:23.570 - Thread:   8 ->  GC Memory: 2,523,190,288 B
+2016-01-19 01:21:53.586 - Thread:   8 ->  GC Memory: 2,523,206,672 B
+2016-01-19 01:22:23.587 - Thread:   8 ->  GC Memory: 2,520,278,256 B
+2016-01-19 01:22:24.558 - Thread:   8 ->  Autosave initiated
+2016-01-19 01:22:24.558 - Thread:   8 ->  Character state: True
+2016-01-19 01:22:24.558 - Thread:   8 ->  IsServer: True
+2016-01-19 01:22:24.558 - Thread:   8 ->  MyAsyncSaving.InProgress: False
+2016-01-19 01:22:24.558 - Thread:   8 ->  Autosave
+2016-01-19 01:22:24.558 - Thread:   8 ->  Saving world - START
+2016-01-19 01:22:24.558 - Thread:   8 ->     Making world state snapshot.
+2016-01-19 01:22:24.558 - Thread:   8 ->     Before snapshot.: GC Memory: 2,520,704,240 B
+2016-01-19 01:22:24.685 - Thread:   8 ->     After snapshot.: GC Memory: 2,538,628,680 B
+2016-01-19 01:22:24.686 - Thread:   8 ->     Directory cleanup: GC Memory: 2,538,628,680 B
+2016-01-19 01:22:24.686 - Thread:   8 ->  Saving world - END
+2016-01-19 01:22:24.686 - Thread:  13 ->  Session snapshot save - START
+2016-01-19 01:22:24.686 - Thread:  13 ->     Checking file access for files in target dir.
+2016-01-19 01:22:27.308 - Thread:  13 ->  Session snapshot save - END
+2016-01-19 01:22:53.600 - Thread:   8 ->  GC Memory: 2,539,756,136 B
+2016-01-19 01:23:23.607 - Thread:   8 ->  GC Memory: 2,539,495,032 B
+2016-01-19 01:23:53.615 - Thread:   8 ->  GC Memory: 2,539,209,968 B
+2016-01-19 01:24:23.624 - Thread:   8 ->  GC Memory: 2,520,642,880 B
+2016-01-19 01:24:53.631 - Thread:   8 ->  GC Memory: 2,520,798,528 B
+2016-01-19 01:25:23.641 - Thread:   8 ->  GC Memory: 2,522,396,168 B
+2016-01-19 01:25:53.649 - Thread:   8 ->  GC Memory: 2,520,991,288 B
+2016-01-19 01:26:23.665 - Thread:   8 ->  GC Memory: 2,522,645,408 B
+2016-01-19 01:26:53.682 - Thread:   8 ->  GC Memory: 2,523,474,704 B
+2016-01-19 01:27:23.690 - Thread:   8 ->  GC Memory: 2,521,203,344 B
+2016-01-19 01:27:24.562 - Thread:   8 ->  Autosave initiated
+2016-01-19 01:27:24.562 - Thread:   8 ->  Character state: True
+2016-01-19 01:27:24.562 - Thread:   8 ->  IsServer: True
+2016-01-19 01:27:24.562 - Thread:   8 ->  MyAsyncSaving.InProgress: False
+2016-01-19 01:27:24.562 - Thread:   8 ->  Autosave
+2016-01-19 01:27:24.563 - Thread:   8 ->  Saving world - START
+2016-01-19 01:27:24.563 - Thread:   8 ->     Making world state snapshot.
+2016-01-19 01:27:24.563 - Thread:   8 ->     Before snapshot.: GC Memory: 2,521,465,488 B
+2016-01-19 01:27:24.693 - Thread:   8 ->     After snapshot.: GC Memory: 2,539,944,416 B
+2016-01-19 01:27:24.693 - Thread:   8 ->     Directory cleanup: GC Memory: 2,539,944,416 B
+2016-01-19 01:27:24.693 - Thread:   8 ->  Saving world - END
+2016-01-19 01:27:24.693 - Thread:  13 ->  Session snapshot save - START
+2016-01-19 01:27:24.693 - Thread:  13 ->     Checking file access for files in target dir.
+2016-01-19 01:27:27.277 - Thread:  13 ->  Session snapshot save - END
+2016-01-19 01:27:53.705 - Thread:   8 ->  GC Memory: 2,541,111,024 B
+2016-01-19 01:28:23.715 - Thread:   8 ->  GC Memory: 2,539,794,944 B
+2016-01-19 01:28:53.727 - Thread:   8 ->  GC Memory: 2,540,663,640 B
+2016-01-19 01:29:23.732 - Thread:   8 ->  GC Memory: 2,523,546,392 B
+2016-01-19 01:29:53.742 - Thread:   8 ->  GC Memory: 2,525,224,928 B
+2016-01-19 01:30:23.749 - Thread:   8 ->  GC Memory: 2,524,437,736 B
+2016-01-19 01:30:53.756 - Thread:   8 ->  GC Memory: 2,521,690,712 B
+2016-01-19 01:31:23.765 - Thread:   8 ->  GC Memory: 2,522,507,592 B
+2016-01-19 01:31:53.773 - Thread:   8 ->  GC Memory: 2,522,304,264 B
+2016-01-19 01:32:23.788 - Thread:   8 ->  GC Memory: 2,521,781,904 B
+2016-01-19 01:32:24.568 - Thread:   8 ->  Autosave initiated
+2016-01-19 01:32:24.568 - Thread:   8 ->  Character state: True
+2016-01-19 01:32:24.568 - Thread:   8 ->  IsServer: True
+2016-01-19 01:32:24.568 - Thread:   8 ->  MyAsyncSaving.InProgress: False
+2016-01-19 01:32:24.568 - Thread:   8 ->  Autosave
+2016-01-19 01:32:24.568 - Thread:   8 ->  Saving world - START
+2016-01-19 01:32:24.568 - Thread:   8 ->     Making world state snapshot.
+2016-01-19 01:32:24.568 - Thread:   8 ->     Before snapshot.: GC Memory: 2,521,888,400 B
+2016-01-19 01:32:24.694 - Thread:   8 ->     After snapshot.: GC Memory: 2,540,637,720 B
+2016-01-19 01:32:24.694 - Thread:   8 ->     Directory cleanup: GC Memory: 2,540,637,720 B
+2016-01-19 01:32:24.694 - Thread:   8 ->  Saving world - END
+2016-01-19 01:32:24.694 - Thread:  13 ->  Session snapshot save - START
+2016-01-19 01:32:24.694 - Thread:  13 ->     Checking file access for files in target dir.
+2016-01-19 01:32:27.374 - Thread:  13 ->  Session snapshot save - END
+2016-01-19 01:32:53.791 - Thread:   8 ->  GC Memory: 2,541,316,960 B
+2016-01-19 01:33:23.801 - Thread:   8 ->  GC Memory: 2,542,070,352 B
+2016-01-19 01:33:53.808 - Thread:   8 ->  GC Memory: 2,542,769,376 B
+2016-01-19 01:34:23.817 - Thread:   8 ->  GC Memory: 2,522,640,312 B
+2016-01-19 01:34:53.833 - Thread:   8 ->  GC Memory: 2,521,859,368 B
+2016-01-19 01:35:23.840 - Thread:   8 ->  GC Memory: 2,521,923,392 B
+2016-01-19 01:35:53.847 - Thread:   8 ->  GC Memory: 2,522,699,040 B
+2016-01-19 01:36:23.856 - Thread:   8 ->  GC Memory: 2,525,478,832 B
+2016-01-19 01:36:53.865 - Thread:   8 ->  GC Memory: 2,525,045,720 B
+2016-01-19 01:37:23.873 - Thread:   8 ->  GC Memory: 2,522,338,312 B
+2016-01-19 01:37:24.575 - Thread:   8 ->  Autosave initiated
+2016-01-19 01:37:24.575 - Thread:   8 ->  Character state: True
+2016-01-19 01:37:24.575 - Thread:   8 ->  IsServer: True
+2016-01-19 01:37:24.575 - Thread:   8 ->  MyAsyncSaving.InProgress: False
+2016-01-19 01:37:24.575 - Thread:   8 ->  Autosave
+2016-01-19 01:37:24.576 - Thread:   8 ->  Saving world - START
+2016-01-19 01:37:24.576 - Thread:   8 ->     Making world state snapshot.
+2016-01-19 01:37:24.576 - Thread:   8 ->     Before snapshot.: GC Memory: 2,522,420,232 B
+2016-01-19 01:37:24.768 - Thread:   8 ->     After snapshot.: GC Memory: 2,540,809,216 B
+2016-01-19 01:37:24.768 - Thread:   8 ->     Directory cleanup: GC Memory: 2,540,809,216 B
+2016-01-19 01:37:24.768 - Thread:   8 ->  Saving world - END
+2016-01-19 01:37:24.768 - Thread:  13 ->  Session snapshot save - START
+2016-01-19 01:37:24.769 - Thread:  13 ->     Checking file access for files in target dir.
+2016-01-19 01:37:27.319 - Thread:  13 ->  Session snapshot save - END
+2016-01-19 01:37:53.878 - Thread:   8 ->  GC Memory: 2,545,481,152 B
+2016-01-19 01:38:23.887 - Thread:   8 ->  GC Memory: 2,544,981,840 B
+2016-01-19 01:38:53.894 - Thread:   8 ->  GC Memory: 2,545,605,000 B
+2016-01-19 01:39:23.903 - Thread:   8 ->  GC Memory: 2,521,691,368 B
+2016-01-19 01:39:53.911 - Thread:   8 ->  GC Memory: 2,524,834,088 B
+2016-01-19 01:40:23.918 - Thread:   8 ->  GC Memory: 2,524,186,208 B
+2016-01-19 01:40:53.928 - Thread:   8 ->  GC Memory: 2,525,394,032 B
+2016-01-19 01:41:23.936 - Thread:   8 ->  GC Memory: 2,523,938,824 B
+2016-01-19 01:41:53.951 - Thread:   8 ->  GC Memory: 2,525,128,256 B
+2016-01-19 01:42:23.953 - Thread:   8 ->  GC Memory: 2,524,726,024 B
+2016-01-19 01:42:24.587 - Thread:   8 ->  Autosave initiated
+2016-01-19 01:42:24.587 - Thread:   8 ->  Character state: True
+2016-01-19 01:42:24.587 - Thread:   8 ->  IsServer: True
+2016-01-19 01:42:24.587 - Thread:   8 ->  MyAsyncSaving.InProgress: False
+2016-01-19 01:42:24.587 - Thread:   8 ->  Autosave
+2016-01-19 01:42:24.588 - Thread:   8 ->  Saving world - START
+2016-01-19 01:42:24.588 - Thread:   8 ->     Making world state snapshot.
+2016-01-19 01:42:24.588 - Thread:   8 ->     Before snapshot.: GC Memory: 2,522,407,744 B
+2016-01-19 01:42:24.709 - Thread:   8 ->     After snapshot.: GC Memory: 2,540,947,632 B
+2016-01-19 01:42:24.710 - Thread:   8 ->     Directory cleanup: GC Memory: 2,540,947,632 B
+2016-01-19 01:42:24.710 - Thread:   8 ->  Saving world - END
+2016-01-19 01:42:24.710 - Thread:  13 ->  Session snapshot save - START
+2016-01-19 01:42:24.710 - Thread:  13 ->     Checking file access for files in target dir.
+2016-01-19 01:42:27.350 - Thread:  13 ->  Session snapshot save - END
+2016-01-19 01:42:53.959 - Thread:   8 ->  GC Memory: 2,541,938,768 B
+2016-01-19 01:43:23.967 - Thread:   8 ->  GC Memory: 2,543,073,208 B
+2016-01-19 01:43:53.974 - Thread:   8 ->  GC Memory: 2,542,218,296 B
+2016-01-19 01:44:23.983 - Thread:   8 ->  GC Memory: 2,522,420,560 B
+2016-01-19 01:44:53.990 - Thread:   8 ->  GC Memory: 2,522,986,000 B
+2016-01-19 01:45:23.999 - Thread:   8 ->  GC Memory: 2,525,344,040 B
+2016-01-19 01:45:54.008 - Thread:   8 ->  GC Memory: 2,522,181,576 B
+2016-01-19 01:46:24.024 - Thread:   8 ->  GC Memory: 2,523,059,096 B
+2016-01-19 01:46:54.024 - Thread:   8 ->  GC Memory: 2,525,662,592 B
+2016-01-19 01:47:24.034 - Thread:   8 ->  GC Memory: 2,525,571,512 B
+2016-01-19 01:47:24.610 - Thread:   8 ->  Autosave initiated
+2016-01-19 01:47:24.610 - Thread:   8 ->  Character state: True
+2016-01-19 01:47:24.610 - Thread:   8 ->  IsServer: True
+2016-01-19 01:47:24.610 - Thread:   8 ->  MyAsyncSaving.InProgress: False
+2016-01-19 01:47:24.610 - Thread:   8 ->  Autosave
+2016-01-19 01:47:24.610 - Thread:   8 ->  Saving world - START
+2016-01-19 01:47:24.610 - Thread:   8 ->     Making world state snapshot.
+2016-01-19 01:47:24.610 - Thread:   8 ->     Before snapshot.: GC Memory: 2,525,456,824 B
+2016-01-19 01:47:24.733 - Thread:   8 ->     After snapshot.: GC Memory: 2,543,745,056 B
+2016-01-19 01:47:24.733 - Thread:   8 ->     Directory cleanup: GC Memory: 2,543,745,056 B
+2016-01-19 01:47:24.733 - Thread:   8 ->  Saving world - END
+2016-01-19 01:47:24.733 - Thread:  13 ->  Session snapshot save - START
+2016-01-19 01:47:24.733 - Thread:  13 ->     Checking file access for files in target dir.
+2016-01-19 01:47:27.783 - Thread:  13 ->  Session snapshot save - END
+2016-01-19 01:47:54.040 - Thread:   8 ->  GC Memory: 2,542,066,432 B
+2016-01-19 01:48:24.050 - Thread:   8 ->  GC Memory: 2,542,774,008 B
+2016-01-19 01:48:54.057 - Thread:   8 ->  GC Memory: 2,542,589,632 B
+2016-01-19 01:49:24.065 - Thread:   8 ->  GC Memory: 2,522,751,904 B
+2016-01-19 01:49:54.075 - Thread:   8 ->  GC Memory: 2,522,317,728 B
+2016-01-19 01:50:24.083 - Thread:   8 ->  GC Memory: 2,522,719,264 B
+2016-01-19 01:50:54.090 - Thread:   8 ->  GC Memory: 2,522,750,688 B
+2016-01-19 01:51:24.098 - Thread:   8 ->  GC Memory: 2,522,029,088 B
+2016-01-19 01:51:39.809 - Thread:   8 ->  CreateCompressedMsg: Type: MyObjectBuilder_CubeGrid  Name:   EntityID: 18410E10F7075C8
+2016-01-19 01:51:39.978 - Thread:   8 ->  Status: Exists(True) InScene(True)
+2016-01-19 01:51:54.103 - Thread:   8 ->  GC Memory: 2,529,830,808 B
+2016-01-19 01:52:24.113 - Thread:   8 ->  GC Memory: 2,529,209,776 B
+2016-01-19 01:52:24.615 - Thread:   8 ->  Autosave initiated
+2016-01-19 01:52:24.615 - Thread:   8 ->  Character state: True
+2016-01-19 01:52:24.615 - Thread:   8 ->  IsServer: True
+2016-01-19 01:52:24.615 - Thread:   8 ->  MyAsyncSaving.InProgress: False
+2016-01-19 01:52:24.615 - Thread:   8 ->  Autosave
+2016-01-19 01:52:24.615 - Thread:   8 ->  Saving world - START
+2016-01-19 01:52:24.615 - Thread:   8 ->     Making world state snapshot.
+2016-01-19 01:52:24.615 - Thread:   8 ->     Before snapshot.: GC Memory: 2,528,964,016 B
+2016-01-19 01:52:24.761 - Thread:   8 ->     After snapshot.: GC Memory: 2,547,366,200 B
+2016-01-19 01:52:24.762 - Thread:   8 ->     Directory cleanup: GC Memory: 2,547,366,200 B
+2016-01-19 01:52:24.762 - Thread:   8 ->  Saving world - END
+2016-01-19 01:52:24.762 - Thread:  13 ->  Session snapshot save - START
+2016-01-19 01:52:24.762 - Thread:  13 ->     Checking file access for files in target dir.
+2016-01-19 01:52:27.756 - Thread:  13 ->  Session snapshot save - END
+2016-01-19 01:52:54.130 - Thread:   8 ->  GC Memory: 2,545,090,248 B
+2016-01-19 01:53:24.136 - Thread:   8 ->  GC Memory: 2,544,233,344 B
+2016-01-19 01:53:54.139 - Thread:   8 ->  GC Memory: 2,546,572,512 B
+2016-01-19 01:54:24.145 - Thread:   8 ->  GC Memory: 2,525,897,536 B
+2016-01-19 01:54:54.153 - Thread:   8 ->  GC Memory: 2,526,517,496 B
+2016-01-19 01:55:24.161 - Thread:   8 ->  GC Memory: 2,525,550,328 B
+2016-01-19 01:55:54.169 - Thread:   8 ->  GC Memory: 2,526,229,776 B
+2016-01-19 01:56:24.177 - Thread:   8 ->  GC Memory: 2,525,336,696 B
+2016-01-19 01:56:54.185 - Thread:   8 ->  GC Memory: 2,527,087,440 B
+2016-01-19 01:57:18.347 - Thread:   8 ->  CreateCompressedMsg: Type: MyObjectBuilder_CubeGrid  Name:   EntityID: 1CBC077424E2354
+2016-01-19 01:57:18.510 - Thread:   8 ->  Status: Exists(True) InScene(True)
+2016-01-19 01:57:24.204 - Thread:   8 ->  GC Memory: 2,531,077,480 B
+2016-01-19 01:57:24.631 - Thread:   8 ->  Autosave initiated
+2016-01-19 01:57:24.631 - Thread:   8 ->  Character state: True
+2016-01-19 01:57:24.631 - Thread:   8 ->  IsServer: True
+2016-01-19 01:57:24.631 - Thread:   8 ->  MyAsyncSaving.InProgress: False
+2016-01-19 01:57:24.631 - Thread:   8 ->  Autosave
+2016-01-19 01:57:24.631 - Thread:   8 ->  Saving world - START
+2016-01-19 01:57:24.631 - Thread:   8 ->     Making world state snapshot.
+2016-01-19 01:57:24.631 - Thread:   8 ->     Before snapshot.: GC Memory: 2,530,397,032 B
+2016-01-19 01:57:24.768 - Thread:   8 ->     After snapshot.: GC Memory: 2,550,073,048 B
+2016-01-19 01:57:24.768 - Thread:   8 ->     Directory cleanup: GC Memory: 2,550,073,048 B
+2016-01-19 01:57:24.768 - Thread:   8 ->  Saving world - END
+2016-01-19 01:57:24.768 - Thread:  13 ->  Session snapshot save - START
+2016-01-19 01:57:24.768 - Thread:  13 ->     Checking file access for files in target dir.
+2016-01-19 01:57:27.815 - Thread:  13 ->  Session snapshot save - END
+2016-01-19 01:57:54.206 - Thread:   8 ->  GC Memory: 2,547,315,760 B
+2016-01-19 01:58:24.215 - Thread:   8 ->  GC Memory: 2,545,849,072 B
+2016-01-19 01:58:54.222 - Thread:   8 ->  GC Memory: 2,545,939,184 B
+2016-01-19 01:59:24.238 - Thread:   8 ->  GC Memory: 2,528,731,984 B
+2016-01-19 01:59:54.240 - Thread:   8 ->  GC Memory: 2,529,894,760 B
+2016-01-19 02:00:24.247 - Thread:   8 ->  GC Memory: 2,528,792,056 B
+2016-01-19 02:00:54.259 - Thread:   8 ->  GC Memory: 2,528,828,272 B
+2016-01-19 02:01:24.265 - Thread:   8 ->  GC Memory: 2,528,820,184 B
+2016-01-19 02:01:54.274 - Thread:   8 ->  GC Memory: 2,531,760,360 B
+2016-01-19 02:02:24.281 - Thread:   8 ->  GC Memory: 2,532,593,208 B
+2016-01-19 02:02:24.632 - Thread:   8 ->  Autosave initiated
+2016-01-19 02:02:24.632 - Thread:   8 ->  Character state: True
+2016-01-19 02:02:24.632 - Thread:   8 ->  IsServer: True
+2016-01-19 02:02:24.632 - Thread:   8 ->  MyAsyncSaving.InProgress: False
+2016-01-19 02:02:24.632 - Thread:   8 ->  Autosave
+2016-01-19 02:02:24.632 - Thread:   8 ->  Saving world - START
+2016-01-19 02:02:24.632 - Thread:   8 ->     Making world state snapshot.
+2016-01-19 02:02:24.632 - Thread:   8 ->     Before snapshot.: GC Memory: 2,531,791,712 B
+2016-01-19 02:02:24.828 - Thread:   8 ->     After snapshot.: GC Memory: 2,551,737,024 B
+2016-01-19 02:02:24.829 - Thread:   8 ->     Directory cleanup: GC Memory: 2,551,737,024 B
+2016-01-19 02:02:24.829 - Thread:   8 ->  Saving world - END
+2016-01-19 02:02:24.829 - Thread:  13 ->  Session snapshot save - START
+2016-01-19 02:02:24.829 - Thread:  13 ->     Checking file access for files in target dir.
+2016-01-19 02:02:27.848 - Thread:  13 ->  Session snapshot save - END
+2016-01-19 02:02:54.294 - Thread:   8 ->  GC Memory: 2,549,386,280 B
+2016-01-19 02:03:24.303 - Thread:   8 ->  GC Memory: 2,549,034,112 B
+2016-01-19 02:03:41.820 - Thread:   8 ->  Player character died. Id : 76561197966179155
+2016-01-19 02:03:54.318 - Thread:   8 ->  GC Memory: 2,549,640,048 B
+2016-01-19 02:04:24.319 - Thread:   8 ->  GC Memory: 2,530,767,712 B
+2016-01-19 02:04:27.528 - Thread:   8 ->  CreateCompressedMsg: Type: MyObjectBuilder_CubeGrid  Name:   EntityID: 14CE9933CA81D77
+2016-01-19 02:04:27.689 - Thread:   8 ->  Status: Exists(True) InScene(True)
+2016-01-19 02:04:54.330 - Thread:   8 ->  GC Memory: 2,540,065,536 B
+2016-01-19 02:05:24.339 - Thread:   8 ->  GC Memory: 2,539,993,440 B
+2016-01-19 02:05:54.347 - Thread:   8 ->  GC Memory: 2,533,145,096 B
+2016-01-19 02:06:24.354 - Thread:   8 ->  GC Memory: 2,533,431,296 B
+2016-01-19 02:06:54.363 - Thread:   8 ->  GC Memory: 2,534,470,488 B
+2016-01-19 02:07:24.373 - Thread:   8 ->  GC Memory: 2,534,494,832 B
+2016-01-19 02:07:24.640 - Thread:   8 ->  Autosave initiated
+2016-01-19 02:07:24.640 - Thread:   8 ->  Character state: True
+2016-01-19 02:07:24.640 - Thread:   8 ->  IsServer: True
+2016-01-19 02:07:24.640 - Thread:   8 ->  MyAsyncSaving.InProgress: False
+2016-01-19 02:07:24.640 - Thread:   8 ->  Autosave
+2016-01-19 02:07:24.641 - Thread:   8 ->  Saving world - START
+2016-01-19 02:07:24.641 - Thread:   8 ->     Making world state snapshot.
+2016-01-19 02:07:24.641 - Thread:   8 ->     Before snapshot.: GC Memory: 2,533,470,896 B
+2016-01-19 02:07:24.783 - Thread:   8 ->     After snapshot.: GC Memory: 2,555,563,448 B
+2016-01-19 02:07:24.784 - Thread:   8 ->     Directory cleanup: GC Memory: 2,555,563,448 B
+2016-01-19 02:07:24.784 - Thread:   8 ->  Saving world - END
+2016-01-19 02:07:24.784 - Thread:  13 ->  Session snapshot save - START
+2016-01-19 02:07:24.784 - Thread:  13 ->     Checking file access for files in target dir.
+2016-01-19 02:07:27.530 - Thread:  13 ->  Session snapshot save - END
+2016-01-19 02:07:54.384 - Thread:   8 ->  GC Memory: 2,551,944,712 B
+2016-01-19 02:08:24.395 - Thread:   8 ->  GC Memory: 2,551,731,592 B
+2016-01-19 02:08:54.403 - Thread:   8 ->  GC Memory: 2,553,129,864 B
+2016-01-19 02:09:24.409 - Thread:   8 ->  GC Memory: 2,534,100,592 B
+2016-01-19 02:09:54.419 - Thread:   8 ->  GC Memory: 2,533,163,368 B
+2016-01-19 02:10:24.421 - Thread:   8 ->  GC Memory: 2,534,648,808 B
+2016-01-19 02:10:54.438 - Thread:   8 ->  GC Memory: 2,533,081,088 B
+2016-01-19 02:11:24.444 - Thread:   8 ->  GC Memory: 2,534,621,696 B
+2016-01-19 02:11:54.460 - Thread:   8 ->  GC Memory: 2,534,645,504 B
+2016-01-19 02:12:24.477 - Thread:   8 ->  GC Memory: 2,533,162,880 B
+2016-01-19 02:12:24.645 - Thread:   8 ->  Autosave initiated
+2016-01-19 02:12:24.645 - Thread:   8 ->  Character state: True
+2016-01-19 02:12:24.645 - Thread:   8 ->  IsServer: True
+2016-01-19 02:12:24.645 - Thread:   8 ->  MyAsyncSaving.InProgress: False
+2016-01-19 02:12:24.645 - Thread:   8 ->  Autosave
+2016-01-19 02:12:24.645 - Thread:   8 ->  Saving world - START
+2016-01-19 02:12:24.645 - Thread:   8 ->     Making world state snapshot.
+2016-01-19 02:12:24.645 - Thread:   8 ->     Before snapshot.: GC Memory: 2,533,507,456 B
+2016-01-19 02:12:24.777 - Thread:   8 ->     After snapshot.: GC Memory: 2,552,648,664 B
+2016-01-19 02:12:24.779 - Thread:   8 ->     Directory cleanup: GC Memory: 2,552,648,664 B
+2016-01-19 02:12:24.779 - Thread:   8 ->  Saving world - END
+2016-01-19 02:12:24.779 - Thread:  13 ->  Session snapshot save - START
+2016-01-19 02:12:24.779 - Thread:  13 ->     Checking file access for files in target dir.
+2016-01-19 02:12:27.602 - Thread:  13 ->  Session snapshot save - END
+2016-01-19 02:12:54.481 - Thread:   8 ->  GC Memory: 2,534,605,248 B
+2016-01-19 02:13:24.487 - Thread:   8 ->  GC Memory: 2,534,060,232 B
+2016-01-19 02:13:54.494 - Thread:   8 ->  GC Memory: 2,534,468,952 B
+2016-01-19 02:14:24.539 - Thread:   8 ->  GC Memory: 2,889,604,952 B
+2016-01-19 02:14:54.549 - Thread:   8 ->  GC Memory: 2,948,414,264 B
+2016-01-19 02:15:24.556 - Thread:   8 ->  GC Memory: 2,594,673,048 B
+2016-01-19 02:15:54.562 - Thread:   8 ->  GC Memory: 4,391,102,224 B
+2016-01-19 02:16:24.568 - Thread:   8 ->  GC Memory: 3,245,452,976 B
+2016-01-19 02:16:54.579 - Thread:   8 ->  GC Memory: 3,338,837,488 B
+2016-01-19 02:17:24.589 - Thread:   8 ->  GC Memory: 2,604,798,440 B
+2016-01-19 02:17:24.647 - Thread:   8 ->  Autosave initiated
+2016-01-19 02:17:24.647 - Thread:   8 ->  Character state: True
+2016-01-19 02:17:24.647 - Thread:   8 ->  IsServer: True
+2016-01-19 02:17:24.647 - Thread:   8 ->  MyAsyncSaving.InProgress: False
+2016-01-19 02:17:24.647 - Thread:   8 ->  Autosave
+2016-01-19 02:17:24.648 - Thread:   8 ->  Saving world - START
+2016-01-19 02:17:24.648 - Thread:   8 ->     Making world state snapshot.
+2016-01-19 02:17:24.648 - Thread:   8 ->     Before snapshot.: GC Memory: 2,605,216,232 B
+2016-01-19 02:17:25.177 - Thread:   8 ->     After snapshot.: GC Memory: 2,609,393,088 B
+2016-01-19 02:17:25.178 - Thread:   8 ->     Directory cleanup: GC Memory: 2,609,393,088 B
+2016-01-19 02:17:25.178 - Thread:   8 ->  Saving world - END
+2016-01-19 02:17:25.178 - Thread:  13 ->  Session snapshot save - START
+2016-01-19 02:17:25.178 - Thread:  13 ->     Checking file access for files in target dir.
+2016-01-19 02:17:29.772 - Thread:  13 ->  Session snapshot save - END
+2016-01-19 02:17:54.597 - Thread:   8 ->  GC Memory: 2,758,922,680 B
+2016-01-19 02:18:24.610 - Thread:   8 ->  GC Memory: 2,792,549,480 B
+2016-01-19 02:18:54.610 - Thread:   8 ->  GC Memory: 2,899,170,824 B
+2016-01-19 02:19:24.624 - Thread:   8 ->  GC Memory: 3,015,109,912 B
+2016-01-19 02:19:54.625 - Thread:   8 ->  GC Memory: 3,104,826,920 B
+2016-01-19 02:20:24.632 - Thread:   8 ->  GC Memory: 3,193,715,968 B
+2016-01-19 02:20:54.635 - Thread:   8 ->  GC Memory: 3,270,449,944 B
+2016-01-19 02:21:24.455 - Thread:   8 ->  CreateCompressedMsg: Type: MyObjectBuilder_CubeGrid  Name:   EntityID: 1764C3327C44003
+2016-01-19 02:21:24.721 - Thread:   8 ->  Status: Exists(True) InScene(True)
+2016-01-19 02:21:24.814 - Thread:   8 ->  GC Memory: 3,344,645,120 B
+2016-01-19 02:21:54.820 - Thread:   8 ->  GC Memory: 3,413,337,944 B
+2016-01-19 02:22:24.665 - Thread:   8 ->  Autosave initiated
+2016-01-19 02:22:24.665 - Thread:   8 ->  Character state: True
+2016-01-19 02:22:24.665 - Thread:   8 ->  IsServer: True
+2016-01-19 02:22:24.665 - Thread:   8 ->  MyAsyncSaving.InProgress: False
+2016-01-19 02:22:24.665 - Thread:   8 ->  Autosave
+2016-01-19 02:22:24.666 - Thread:   8 ->  Saving world - START
+2016-01-19 02:22:24.666 - Thread:   8 ->     Making world state snapshot.
+2016-01-19 02:22:24.666 - Thread:   8 ->     Before snapshot.: GC Memory: 3,480,279,824 B
+2016-01-19 02:22:25.026 - Thread:   8 ->     After snapshot.: GC Memory: 3,499,080,416 B
+2016-01-19 02:22:25.027 - Thread:   8 ->     Directory cleanup: GC Memory: 3,499,080,416 B
+2016-01-19 02:22:25.027 - Thread:   8 ->  Saving world - END
+2016-01-19 02:22:25.028 - Thread:  13 ->  Session snapshot save - START
+2016-01-19 02:22:25.028 - Thread:  13 ->     Checking file access for files in target dir.
+2016-01-19 02:22:25.055 - Thread:   8 ->  GC Memory: 3,498,943,824 B
+2016-01-19 02:22:30.146 - Thread:  13 ->  Session snapshot save - END
+2016-01-19 02:22:55.060 - Thread:   8 ->  GC Memory: 3,868,660,472 B
+2016-01-19 02:23:25.113 - Thread:   8 ->  GC Memory: 4,583,141,480 B
+2016-01-19 02:23:55.120 - Thread:   8 ->  GC Memory: 3,243,049,256 B
+2016-01-19 02:24:25.143 - Thread:   8 ->  GC Memory: 2,646,555,272 B
+2016-01-19 02:24:55.145 - Thread:   8 ->  GC Memory: 2,764,738,488 B
+2016-01-19 02:25:25.162 - Thread:   8 ->  GC Memory: 3,775,203,392 B
+2016-01-19 02:25:55.167 - Thread:   8 ->  GC Memory: 2,780,644,024 B
+2016-01-19 02:26:25.167 - Thread:   8 ->  GC Memory: 2,828,440,240 B
+2016-01-19 02:26:55.176 - Thread:   8 ->  GC Memory: 3,527,801,104 B
+2016-01-19 02:27:24.666 - Thread:   8 ->  Autosave initiated
+2016-01-19 02:27:24.666 - Thread:   8 ->  Character state: True
+2016-01-19 02:27:24.666 - Thread:   8 ->  IsServer: True
+2016-01-19 02:27:24.666 - Thread:   8 ->  MyAsyncSaving.InProgress: False
+2016-01-19 02:27:24.666 - Thread:   8 ->  Autosave
+2016-01-19 02:27:24.666 - Thread:   8 ->  Saving world - START
+2016-01-19 02:27:24.666 - Thread:   8 ->     Making world state snapshot.
+2016-01-19 02:27:24.666 - Thread:   8 ->     Before snapshot.: GC Memory: 2,733,915,656 B
+2016-01-19 02:27:25.047 - Thread:   8 ->     After snapshot.: GC Memory: 2,739,626,776 B
+2016-01-19 02:27:25.047 - Thread:   8 ->     Directory cleanup: GC Memory: 2,739,626,776 B
+2016-01-19 02:27:25.047 - Thread:   8 ->  Saving world - END
+2016-01-19 02:27:25.047 - Thread:  13 ->  Session snapshot save - START
+2016-01-19 02:27:25.047 - Thread:  13 ->     Checking file access for files in target dir.
+2016-01-19 02:27:25.197 - Thread:   8 ->  GC Memory: 2,648,112,144 B
+2016-01-19 02:27:29.838 - Thread:  13 ->  Session snapshot save - END
+2016-01-19 02:27:55.210 - Thread:   8 ->  GC Memory: 3,387,072,152 B
+2016-01-19 02:28:25.216 - Thread:   8 ->  GC Memory: 4,061,973,512 B
+2016-01-19 02:28:55.226 - Thread:   8 ->  GC Memory: 2,610,413,416 B
+2016-01-19 02:29:25.340 - Thread:   8 ->  GC Memory: 2,683,354,496 B
+2016-01-19 02:29:55.347 - Thread:   8 ->  GC Memory: 3,100,776,672 B
+2016-01-19 02:30:25.351 - Thread:   8 ->  GC Memory: 2,918,992,256 B
+2016-01-19 02:30:55.356 - Thread:   8 ->  GC Memory: 3,283,481,320 B
+2016-01-19 02:31:25.381 - Thread:   8 ->  GC Memory: 2,917,320,888 B
+2016-01-19 02:31:55.388 - Thread:   8 ->  GC Memory: 2,642,685,456 B
+2016-01-19 02:32:24.671 - Thread:   8 ->  Autosave initiated
+2016-01-19 02:32:24.671 - Thread:   8 ->  Character state: True
+2016-01-19 02:32:24.671 - Thread:   8 ->  IsServer: True
+2016-01-19 02:32:24.671 - Thread:   8 ->  MyAsyncSaving.InProgress: False
+2016-01-19 02:32:24.671 - Thread:   8 ->  Autosave
+2016-01-19 02:32:24.672 - Thread:   8 ->  Saving world - START
+2016-01-19 02:32:24.672 - Thread:   8 ->     Making world state snapshot.
+2016-01-19 02:32:24.672 - Thread:   8 ->     Before snapshot.: GC Memory: 2,752,541,688 B
+2016-01-19 02:32:25.086 - Thread:   8 ->     After snapshot.: GC Memory: 2,802,471,536 B
+2016-01-19 02:32:25.086 - Thread:   8 ->     Directory cleanup: GC Memory: 2,802,471,536 B
+2016-01-19 02:32:25.086 - Thread:   8 ->  Saving world - END
+2016-01-19 02:32:25.086 - Thread:  13 ->  Session snapshot save - START
+2016-01-19 02:32:25.086 - Thread:  13 ->     Checking file access for files in target dir.
+2016-01-19 02:32:25.449 - Thread:   8 ->  GC Memory: 2,800,238,408 B
+2016-01-19 02:32:29.327 - Thread:  13 ->  Session snapshot save - END
+2016-01-19 02:32:55.459 - Thread:   8 ->  GC Memory: 2,892,948,344 B
+2016-01-19 02:33:25.517 - Thread:   8 ->  GC Memory: 2,572,924,000 B
+2016-01-19 02:33:55.520 - Thread:   8 ->  GC Memory: 3,012,524,000 B
+2016-01-19 02:34:25.575 - Thread:   8 ->  GC Memory: 2,909,893,472 B
+2016-01-19 02:34:55.584 - Thread:   8 ->  GC Memory: 2,967,757,936 B
+2016-01-19 02:35:25.592 - Thread:   8 ->  GC Memory: 2,679,020,120 B
+2016-01-19 02:35:55.602 - Thread:   8 ->  GC Memory: 3,103,243,840 B
+2016-01-19 02:36:25.606 - Thread:   8 ->  GC Memory: 3,511,078,672 B
+2016-01-19 02:36:55.621 - Thread:   8 ->  GC Memory: 4,228,731,200 B
+2016-01-19 02:37:24.696 - Thread:   8 ->  Autosave initiated
+2016-01-19 02:37:24.696 - Thread:   8 ->  Character state: True
+2016-01-19 02:37:24.696 - Thread:   8 ->  IsServer: True
+2016-01-19 02:37:24.696 - Thread:   8 ->  MyAsyncSaving.InProgress: False
+2016-01-19 02:37:24.696 - Thread:   8 ->  Autosave
+2016-01-19 02:37:24.696 - Thread:   8 ->  Saving world - START
+2016-01-19 02:37:24.696 - Thread:   8 ->     Making world state snapshot.
+2016-01-19 02:37:24.696 - Thread:   8 ->     Before snapshot.: GC Memory: 2,597,400,360 B
+2016-01-19 02:37:24.968 - Thread:   8 ->     After snapshot.: GC Memory: 2,612,067,624 B
+2016-01-19 02:37:24.968 - Thread:   8 ->     Directory cleanup: GC Memory: 2,612,067,624 B
+2016-01-19 02:37:24.968 - Thread:   8 ->  Saving world - END
+2016-01-19 02:37:24.968 - Thread:  13 ->  Session snapshot save - START
+2016-01-19 02:37:24.968 - Thread:  13 ->     Checking file access for files in target dir.
+2016-01-19 02:37:25.621 - Thread:   8 ->  GC Memory: 2,612,609,032 B
+2016-01-19 02:37:29.478 - Thread:  13 ->  Session snapshot save - END
+2016-01-19 02:37:55.633 - Thread:   8 ->  GC Memory: 2,582,808,016 B
+2016-01-19 02:38:25.646 - Thread:   8 ->  GC Memory: 2,609,104,896 B
+2016-01-19 02:38:55.652 - Thread:   8 ->  GC Memory: 2,631,761,800 B
+2016-01-19 02:39:25.730 - Thread:   8 ->  GC Memory: 2,761,051,064 B
+2016-01-19 02:39:55.732 - Thread:   8 ->  GC Memory: 2,854,017,520 B
+2016-01-19 02:40:25.748 - Thread:   8 ->  GC Memory: 2,601,141,072 B
+2016-01-19 02:40:55.761 - Thread:   8 ->  GC Memory: 2,662,344,632 B
+2016-01-19 02:41:25.784 - Thread:   8 ->  GC Memory: 3,393,790,520 B
+2016-01-19 02:41:56.163 - Thread:   8 ->  GC Memory: 3,053,859,232 B
+2016-01-19 02:42:24.719 - Thread:   8 ->  Autosave initiated
+2016-01-19 02:42:24.719 - Thread:   8 ->  Character state: True
+2016-01-19 02:42:24.719 - Thread:   8 ->  IsServer: True
+2016-01-19 02:42:24.719 - Thread:   8 ->  MyAsyncSaving.InProgress: False
+2016-01-19 02:42:24.719 - Thread:   8 ->  Autosave
+2016-01-19 02:42:24.719 - Thread:   8 ->  Saving world - START
+2016-01-19 02:42:24.719 - Thread:   8 ->     Making world state snapshot.
+2016-01-19 02:42:24.719 - Thread:   8 ->     Before snapshot.: GC Memory: 3,011,642,056 B
+2016-01-19 02:42:25.003 - Thread:   8 ->     After snapshot.: GC Memory: 3,030,863,488 B
+2016-01-19 02:42:25.003 - Thread:   8 ->     Directory cleanup: GC Memory: 3,030,863,488 B
+2016-01-19 02:42:25.003 - Thread:   8 ->  Saving world - END
+2016-01-19 02:42:25.003 - Thread:  13 ->  Session snapshot save - START
+2016-01-19 02:42:25.003 - Thread:  13 ->     Checking file access for files in target dir.
+2016-01-19 02:42:26.180 - Thread:   8 ->  GC Memory: 3,038,316,456 B
+2016-01-19 02:42:30.698 - Thread:  13 ->  Session snapshot save - END
+2016-01-19 02:42:56.190 - Thread:   8 ->  GC Memory: 2,788,251,928 B
+2016-01-19 02:43:26.203 - Thread:   8 ->  GC Memory: 2,858,050,720 B
+2016-01-19 02:43:56.212 - Thread:   8 ->  GC Memory: 2,957,830,608 B
+2016-01-19 02:44:26.257 - Thread:   8 ->  GC Memory: 2,620,288,776 B
+2016-01-19 02:44:56.276 - Thread:   8 ->  GC Memory: 2,959,775,104 B
+2016-01-19 02:45:26.279 - Thread:   8 ->  GC Memory: 3,096,616,840 B
+2016-01-19 02:45:56.288 - Thread:   8 ->  GC Memory: 3,138,728,304 B
+2016-01-19 02:46:26.292 - Thread:   8 ->  GC Memory: 3,894,690,280 B
+2016-01-19 02:46:56.301 - Thread:   8 ->  GC Memory: 4,310,622,104 B
+2016-01-19 02:47:24.731 - Thread:   8 ->  Autosave initiated
+2016-01-19 02:47:24.731 - Thread:   8 ->  Character state: True
+2016-01-19 02:47:24.731 - Thread:   8 ->  IsServer: True
+2016-01-19 02:47:24.731 - Thread:   8 ->  MyAsyncSaving.InProgress: False
+2016-01-19 02:47:24.731 - Thread:   8 ->  Autosave
+2016-01-19 02:47:24.731 - Thread:   8 ->  Saving world - START
+2016-01-19 02:47:24.731 - Thread:   8 ->     Making world state snapshot.
+2016-01-19 02:47:24.731 - Thread:   8 ->     Before snapshot.: GC Memory: 3,351,337,960 B
+2016-01-19 02:47:25.012 - Thread:   8 ->     After snapshot.: GC Memory: 3,399,051,008 B
+2016-01-19 02:47:25.013 - Thread:   8 ->     Directory cleanup: GC Memory: 3,399,051,008 B
+2016-01-19 02:47:25.013 - Thread:   8 ->  Saving world - END
+2016-01-19 02:47:25.013 - Thread:  13 ->  Session snapshot save - START
+2016-01-19 02:47:25.013 - Thread:  13 ->     Checking file access for files in target dir.
+2016-01-19 02:47:26.316 - Thread:   8 ->  GC Memory: 3,409,828,464 B
+2016-01-19 02:47:31.348 - Thread:  13 ->  Session snapshot save - END
+2016-01-19 02:47:56.331 - Thread:   8 ->  GC Memory: 3,083,128,240 B
+2016-01-19 02:48:26.416 - Thread:   8 ->  GC Memory: 3,113,393,568 B
+2016-01-19 02:48:56.419 - Thread:   8 ->  GC Memory: 2,638,007,160 B
+2016-01-19 02:49:26.428 - Thread:   8 ->  GC Memory: 3,023,959,400 B
+2016-01-19 02:49:56.436 - Thread:   8 ->  GC Memory: 2,637,414,960 B
+2016-01-19 02:50:26.438 - Thread:   8 ->  GC Memory: 2,632,866,464 B
+2016-01-19 02:50:56.442 - Thread:   8 ->  GC Memory: 2,750,990,568 B
+2016-01-19 02:51:26.451 - Thread:   8 ->  GC Memory: 2,872,479,784 B
+2016-01-19 02:51:56.459 - Thread:   8 ->  GC Memory: 2,962,704,920 B
+2016-01-19 02:52:24.849 - Thread:   8 ->  Autosave initiated
+2016-01-19 02:52:24.849 - Thread:   8 ->  Character state: True
+2016-01-19 02:52:24.849 - Thread:   8 ->  IsServer: True
+2016-01-19 02:52:24.849 - Thread:   8 ->  MyAsyncSaving.InProgress: False
+2016-01-19 02:52:24.849 - Thread:   8 ->  Autosave
+2016-01-19 02:52:24.850 - Thread:   8 ->  Saving world - START
+2016-01-19 02:52:24.850 - Thread:   8 ->     Making world state snapshot.
+2016-01-19 02:52:24.850 - Thread:   8 ->     Before snapshot.: GC Memory: 3,058,455,784 B
+2016-01-19 02:52:25.160 - Thread:   8 ->     After snapshot.: GC Memory: 3,081,338,408 B
+2016-01-19 02:52:25.160 - Thread:   8 ->     Directory cleanup: GC Memory: 3,081,338,408 B
+2016-01-19 02:52:25.160 - Thread:   8 ->  Saving world - END
+2016-01-19 02:52:25.160 - Thread:  13 ->  Session snapshot save - START
+2016-01-19 02:52:25.160 - Thread:  13 ->     Checking file access for files in target dir.
+2016-01-19 02:52:26.528 - Thread:   8 ->  GC Memory: 3,085,333,384 B
+2016-01-19 02:52:30.391 - Thread:  13 ->  Session snapshot save - END
+2016-01-19 02:52:56.537 - Thread:   8 ->  GC Memory: 2,646,804,872 B
+2016-01-19 02:53:26.544 - Thread:   8 ->  GC Memory: 2,677,390,888 B
+2016-01-19 02:53:56.554 - Thread:   8 ->  GC Memory: 3,306,394,040 B
+2016-01-19 02:54:26.560 - Thread:   8 ->  GC Memory: 3,328,919,448 B
+2016-01-19 02:54:56.569 - Thread:   8 ->  GC Memory: 3,270,969,848 B
+2016-01-19 02:55:26.575 - Thread:   8 ->  GC Memory: 4,565,970,520 B
+2016-01-19 02:55:56.577 - Thread:   8 ->  GC Memory: 2,612,236,272 B
+2016-01-19 02:56:26.584 - Thread:   8 ->  GC Memory: 2,746,410,648 B
+2016-01-19 02:56:56.609 - Thread:   8 ->  GC Memory: 3,594,387,544 B
+2016-01-19 02:57:24.849 - Thread:   8 ->  Autosave initiated
+2016-01-19 02:57:24.849 - Thread:   8 ->  Character state: True
+2016-01-19 02:57:24.849 - Thread:   8 ->  IsServer: True
+2016-01-19 02:57:24.849 - Thread:   8 ->  MyAsyncSaving.InProgress: False
+2016-01-19 02:57:24.849 - Thread:   8 ->  Autosave
+2016-01-19 02:57:24.849 - Thread:   8 ->  Saving world - START
+2016-01-19 02:57:24.849 - Thread:   8 ->     Making world state snapshot.
+2016-01-19 02:57:24.849 - Thread:   8 ->     Before snapshot.: GC Memory: 2,989,337,728 B
+2016-01-19 02:57:25.319 - Thread:   8 ->     After snapshot.: GC Memory: 3,012,275,712 B
+2016-01-19 02:57:25.319 - Thread:   8 ->     Directory cleanup: GC Memory: 3,012,275,712 B
+2016-01-19 02:57:25.319 - Thread:   8 ->  Saving world - END
+2016-01-19 02:57:25.319 - Thread:  13 ->  Session snapshot save - START
+2016-01-19 02:57:25.319 - Thread:  13 ->     Checking file access for files in target dir.
+2016-01-19 02:57:26.617 - Thread:   8 ->  GC Memory: 3,021,801,304 B
+2016-01-19 02:57:31.878 - Thread:  13 ->  Session snapshot save - END
+2016-01-19 02:57:56.633 - Thread:   8 ->  GC Memory: 2,795,244,240 B
+2016-01-19 02:58:26.636 - Thread:   8 ->  GC Memory: 2,892,649,664 B
+2016-01-19 02:58:56.642 - Thread:   8 ->  GC Memory: 2,994,671,176 B
+2016-01-19 02:59:26.646 - Thread:   8 ->  GC Memory: 3,079,441,640 B
+2016-01-19 02:59:56.766 - Thread:   8 ->  GC Memory: 3,181,243,368 B
+2016-01-19 03:00:26.784 - Thread:   8 ->  GC Memory: 3,266,622,880 B
+2016-01-19 03:00:56.788 - Thread:   8 ->  GC Memory: 3,339,178,184 B
+2016-01-19 03:01:26.805 - Thread:   8 ->  GC Memory: 3,410,378,968 B
+2016-01-19 03:01:56.817 - Thread:   8 ->  GC Memory: 3,478,125,040 B
+2016-01-19 03:02:24.858 - Thread:   8 ->  Autosave initiated
+2016-01-19 03:02:24.858 - Thread:   8 ->  Character state: True
+2016-01-19 03:02:24.858 - Thread:   8 ->  IsServer: True
+2016-01-19 03:02:24.858 - Thread:   8 ->  MyAsyncSaving.InProgress: False
+2016-01-19 03:02:24.858 - Thread:   8 ->  Autosave
+2016-01-19 03:02:24.858 - Thread:   8 ->  Saving world - START
+2016-01-19 03:02:24.858 - Thread:   8 ->     Making world state snapshot.
+2016-01-19 03:02:24.858 - Thread:   8 ->     Before snapshot.: GC Memory: 3,541,066,400 B
+2016-01-19 03:02:25.178 - Thread:   8 ->     After snapshot.: GC Memory: 3,562,792,208 B
+2016-01-19 03:02:25.178 - Thread:   8 ->     Directory cleanup: GC Memory: 3,562,792,208 B
+2016-01-19 03:02:25.178 - Thread:   8 ->  Saving world - END
+2016-01-19 03:02:25.179 - Thread:  13 ->  Session snapshot save - START
+2016-01-19 03:02:25.179 - Thread:  13 ->     Checking file access for files in target dir.
+2016-01-19 03:02:26.825 - Thread:   8 ->  GC Memory: 3,570,328,328 B
+2016-01-19 03:02:29.307 - Thread:  13 ->  Session snapshot save - END
+2016-01-19 03:02:56.846 - Thread:   8 ->  GC Memory: 3,632,030,808 B
+2016-01-19 03:03:26.859 - Thread:   8 ->  GC Memory: 3,679,580,048 B
+2016-01-19 03:03:56.869 - Thread:   8 ->  GC Memory: 3,724,587,616 B
+2016-01-19 03:04:26.884 - Thread:   8 ->  GC Memory: 3,788,640,888 B
+2016-01-19 03:04:56.901 - Thread:   8 ->  GC Memory: 3,853,577,744 B
+2016-01-19 03:05:26.901 - Thread:   8 ->  GC Memory: 3,917,568,968 B
+2016-01-19 03:05:56.916 - Thread:   8 ->  GC Memory: 3,945,768,232 B
+2016-01-19 03:06:26.920 - Thread:   8 ->  GC Memory: 4,017,717,016 B
+2016-01-19 03:06:56.931 - Thread:   8 ->  GC Memory: 4,089,619,880 B
+2016-01-19 03:07:24.863 - Thread:   8 ->  Autosave initiated
+2016-01-19 03:07:24.863 - Thread:   8 ->  Character state: True
+2016-01-19 03:07:24.863 - Thread:   8 ->  IsServer: True
+2016-01-19 03:07:24.863 - Thread:   8 ->  MyAsyncSaving.InProgress: False
+2016-01-19 03:07:24.863 - Thread:   8 ->  Autosave
+2016-01-19 03:07:24.864 - Thread:   8 ->  Saving world - START
+2016-01-19 03:07:24.864 - Thread:   8 ->     Making world state snapshot.
+2016-01-19 03:07:24.864 - Thread:   8 ->     Before snapshot.: GC Memory: 4,152,875,568 B
+2016-01-19 03:07:25.227 - Thread:   8 ->     After snapshot.: GC Memory: 4,174,143,680 B
+2016-01-19 03:07:25.227 - Thread:   8 ->     Directory cleanup: GC Memory: 4,174,143,680 B
+2016-01-19 03:07:25.227 - Thread:   8 ->  Saving world - END
+2016-01-19 03:07:25.227 - Thread:  13 ->  Session snapshot save - START
+2016-01-19 03:07:25.227 - Thread:  13 ->     Checking file access for files in target dir.
+2016-01-19 03:07:26.944 - Thread:   8 ->  GC Memory: 4,179,911,952 B
+2016-01-19 03:07:29.744 - Thread:  13 ->  Session snapshot save - END
+2016-01-19 03:07:56.946 - Thread:   8 ->  GC Memory: 4,249,884,792 B
+2016-01-19 03:08:26.953 - Thread:   8 ->  GC Memory: 4,276,182,680 B
+2016-01-19 03:08:56.961 - Thread:   8 ->  GC Memory: 4,276,060,504 B
+2016-01-19 03:09:26.978 - Thread:   8 ->  GC Memory: 4,276,455,184 B
+2016-01-19 03:09:56.987 - Thread:   8 ->  GC Memory: 2,614,700,320 B
+2016-01-19 03:10:26.999 - Thread:   8 ->  GC Memory: 2,636,614,664 B
+2016-01-19 03:10:45.734 - Thread:   8 ->  Player character died. Id : 76561197966179155
+2016-01-19 03:10:57.006 - Thread:   8 ->  GC Memory: 2,637,022,632 B
+2016-01-19 03:11:27.008 - Thread:   8 ->  GC Memory: 2,617,788,072 B
+2016-01-19 03:11:57.013 - Thread:   8 ->  GC Memory: 3,029,315,160 B
+2016-01-19 03:12:24.869 - Thread:   8 ->  Autosave initiated
+2016-01-19 03:12:24.869 - Thread:   8 ->  Character state: True
+2016-01-19 03:12:24.869 - Thread:   8 ->  IsServer: True
+2016-01-19 03:12:24.869 - Thread:   8 ->  MyAsyncSaving.InProgress: False
+2016-01-19 03:12:24.869 - Thread:   8 ->  Autosave
+2016-01-19 03:12:24.869 - Thread:   8 ->  Saving world - START
+2016-01-19 03:12:24.870 - Thread:   8 ->     Making world state snapshot.
+2016-01-19 03:12:24.870 - Thread:   8 ->     Before snapshot.: GC Memory: 3,126,144,104 B
+2016-01-19 03:12:25.494 - Thread:   8 ->     After snapshot.: GC Memory: 3,149,203,504 B
+2016-01-19 03:12:25.495 - Thread:   8 ->     Directory cleanup: GC Memory: 3,149,203,504 B
+2016-01-19 03:12:25.495 - Thread:   8 ->  Saving world - END
+2016-01-19 03:12:25.495 - Thread:  13 ->  Session snapshot save - START
+2016-01-19 03:12:25.495 - Thread:  13 ->     Checking file access for files in target dir.
+2016-01-19 03:12:27.018 - Thread:   8 ->  GC Memory: 3,153,067,992 B
+2016-01-19 03:12:30.039 - Thread:  13 ->  Session snapshot save - END
+2016-01-19 03:12:57.020 - Thread:   8 ->  GC Memory: 2,688,232,568 B
+2016-01-19 03:13:27.030 - Thread:   8 ->  GC Memory: 3,153,915,760 B
+2016-01-19 03:13:57.030 - Thread:   8 ->  GC Memory: 3,234,711,904 B
+2016-01-19 03:14:27.041 - Thread:   8 ->  GC Memory: 2,685,591,344 B
+2016-01-19 03:14:57.084 - Thread:   8 ->  GC Memory: 2,815,698,728 B
+2016-01-19 03:15:27.093 - Thread:   8 ->  GC Memory: 2,911,261,880 B
+2016-01-19 03:15:47.958 - Thread:   8 ->  CreateCompressedMsg: Type: MyObjectBuilder_CubeGrid  Name:   EntityID: 1E891C5C615DF52
+2016-01-19 03:15:48.282 - Thread:   8 ->  Status: Exists(True) InScene(True)
+2016-01-19 03:15:57.103 - Thread:   8 ->  GC Memory: 2,979,955,256 B
+2016-01-19 03:16:27.159 - Thread:   8 ->  GC Memory: 3,090,475,760 B
+2016-01-19 03:16:57.173 - Thread:   8 ->  GC Memory: 3,516,845,872 B
+2016-01-19 03:17:24.945 - Thread:   8 ->  Autosave initiated
+2016-01-19 03:17:24.945 - Thread:   8 ->  Character state: True
+2016-01-19 03:17:24.945 - Thread:   8 ->  IsServer: True
+2016-01-19 03:17:24.945 - Thread:   8 ->  MyAsyncSaving.InProgress: False
+2016-01-19 03:17:24.945 - Thread:   8 ->  Autosave
+2016-01-19 03:17:24.945 - Thread:   8 ->  Saving world - START
+2016-01-19 03:17:24.945 - Thread:   8 ->     Making world state snapshot.
+2016-01-19 03:17:24.945 - Thread:   8 ->     Before snapshot.: GC Memory: 3,164,485,608 B
+2016-01-19 03:17:25.241 - Thread:   8 ->     After snapshot.: GC Memory: 3,171,238,144 B
+2016-01-19 03:17:25.242 - Thread:   8 ->     Directory cleanup: GC Memory: 3,171,238,144 B
+2016-01-19 03:17:25.242 - Thread:   8 ->  Saving world - END
+2016-01-19 03:17:25.242 - Thread:  13 ->  Session snapshot save - START
+2016-01-19 03:17:25.242 - Thread:  13 ->     Checking file access for files in target dir.
+2016-01-19 03:17:27.226 - Thread:   8 ->  GC Memory: 3,165,676,824 B
+2016-01-19 03:17:30.792 - Thread:  13 ->  Session snapshot save - END
+2016-01-19 03:17:40.502 - Thread:   8 ->  Peer2Peer_SessionRequest 76561198103598716
+2016-01-19 03:17:44.330 - Thread:   8 ->  OnConnectedClient 0'neil attempt
+2016-01-19 03:17:44.633 - Thread:   8 ->  Server ValidateAuthTicketResponse (OK), owner: 76561198103598716
+2016-01-19 03:17:44.727 - Thread:   8 ->  World request received: 0'neil
+2016-01-19 03:17:44.727 - Thread:   8 ->  ...responding
+2016-01-19 03:17:57.239 - Thread:   8 ->  GC Memory: 3,053,501,824 B
+2016-01-19 03:18:27.245 - Thread:   8 ->  GC Memory: 3,578,988,928 B
+2016-01-19 03:18:57.727 - Thread:   8 ->  GC Memory: 3,735,415,440 B
+2016-01-19 03:19:27.813 - Thread:   8 ->  GC Memory: 3,027,536,704 B
+2016-01-19 03:19:57.814 - Thread:   8 ->  GC Memory: 3,025,858,256 B
+2016-01-19 03:20:27.831 - Thread:   8 ->  GC Memory: 2,694,952,928 B
+2016-01-19 03:20:57.839 - Thread:   8 ->  GC Memory: 3,186,700,672 B
+2016-01-19 03:21:27.852 - Thread:   8 ->  GC Memory: 2,834,784,128 B
+2016-01-19 03:21:57.862 - Thread:   8 ->  GC Memory: 2,727,136,720 B
+2016-01-19 03:22:24.918 - Thread:   8 ->  Autosave initiated
+2016-01-19 03:22:24.918 - Thread:   8 ->  Character state: True
+2016-01-19 03:22:24.918 - Thread:   8 ->  IsServer: True
+2016-01-19 03:22:24.918 - Thread:   8 ->  MyAsyncSaving.InProgress: False
+2016-01-19 03:22:24.918 - Thread:   8 ->  Autosave
+2016-01-19 03:22:24.918 - Thread:   8 ->  Saving world - START
+2016-01-19 03:22:24.918 - Thread:   8 ->     Making world state snapshot.
+2016-01-19 03:22:24.918 - Thread:   8 ->     Before snapshot.: GC Memory: 2,813,493,080 B
+2016-01-19 03:22:25.305 - Thread:   8 ->     After snapshot.: GC Memory: 2,840,361,896 B
+2016-01-19 03:22:25.306 - Thread:   8 ->     Directory cleanup: GC Memory: 2,840,361,896 B
+2016-01-19 03:22:25.306 - Thread:   8 ->  Saving world - END
+2016-01-19 03:22:25.306 - Thread:  13 ->  Session snapshot save - START
+2016-01-19 03:22:25.306 - Thread:  13 ->     Checking file access for files in target dir.
+2016-01-19 03:22:27.893 - Thread:   8 ->  GC Memory: 2,862,383,272 B
+2016-01-19 03:22:30.579 - Thread:  13 ->  Session snapshot save - END
+2016-01-19 03:22:57.917 - Thread:   8 ->  GC Memory: 2,942,405,056 B
+2016-01-19 03:23:27.927 - Thread:   8 ->  GC Memory: 3,006,236,288 B
+2016-01-19 03:23:57.935 - Thread:   8 ->  GC Memory: 3,128,156,344 B
+2016-01-19 03:24:27.942 - Thread:   8 ->  GC Memory: 3,196,515,016 B
+2016-01-19 03:24:57.946 - Thread:   8 ->  GC Memory: 3,246,741,120 B
+2016-01-19 03:25:27.955 - Thread:   8 ->  GC Memory: 3,321,461,944 B
+2016-01-19 03:25:37.911 - Thread:   8 ->  CreateCompressedMsg: Type: MyObjectBuilder_CubeGrid  Name:   EntityID: 1FDEFC4FD1DDA54
+2016-01-19 03:25:40.729 - Thread:   8 ->  Status: Exists(True) InScene(True)
+2016-01-19 03:25:40.729 - Thread:   8 ->  CreateCompressedMsg: Type: MyObjectBuilder_CubeGrid  Name:   EntityID: 1247D77724367FB
+2016-01-19 03:25:40.749 - Thread:   8 ->  Status: Exists(True) InScene(True)
+2016-01-19 03:25:40.749 - Thread:   8 ->  CreateCompressedMsg: Type: MyObjectBuilder_CubeGrid  Name:   EntityID: 105233BBF21799D
+2016-01-19 03:25:40.767 - Thread:   8 ->  Status: Exists(True) InScene(True)
+2016-01-19 03:25:40.767 - Thread:   8 ->  CreateCompressedMsg: Type: MyObjectBuilder_CubeGrid  Name:   EntityID: 1E69521EADA5888
+2016-01-19 03:25:40.770 - Thread:   8 ->  Status: Exists(True) InScene(True)
+2016-01-19 03:25:40.770 - Thread:   8 ->  CreateCompressedMsg: Type: MyObjectBuilder_CubeGrid  Name:   EntityID: 17B655BFED42175
+2016-01-19 03:25:40.787 - Thread:   8 ->  Status: Exists(True) InScene(True)
+2016-01-19 03:25:57.963 - Thread:   8 ->  GC Memory: 3,391,448,136 B
+2016-01-19 03:26:27.972 - Thread:   8 ->  GC Memory: 3,437,314,944 B
+2016-01-19 03:26:57.992 - Thread:   8 ->  GC Memory: 3,478,839,488 B
+2016-01-19 03:27:06.927 - Thread:   8 ->  User left shade
+2016-01-19 03:27:12.361 - Thread:   8 ->  User left 0'neil
