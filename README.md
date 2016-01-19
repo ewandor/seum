@@ -1,9 +1,12 @@
 **NO ALPHA RELEASED PLANED YET**
 
-se-manager
+Seum
+====
+
+Space Engineer Utility Manager
 ==========
 
-Se-manager is a command line tool aimed to the administration of a multiple Space Engineer Dedicated Server running under multiple versions under Windows.
+Seum is a command line tool aimed to the administration of a multiple Space Engineer Dedicated Server running under multiple versions under Windows.
 
 Requirements:
 Python 3.4
